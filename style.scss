@@ -308,7 +308,7 @@ img {
                 margin-left: 8%;
             }
             &:nth-of-type(3) {
-                margin-left: 45%;
+                margin-left: 50%;
                 line-height: 2rem;
                 padding: 0.5rem;
             }
@@ -924,43 +924,184 @@ img {
 }
 
 @media screen and (max-width: 1280px) {
+.main-all {
+    height: 34rem;
+    & > svg {
+        margin-top: 20%;
+    }
+}
 //mainOne
+.mainOne-contents {
     .mainOne-left {
-    padding-left: 9%;
-} 
+        width: 52%;
+        }
+}
 //mainSec
+.mainSec-all.bg-kskin {
+    padding: 10rem 10rem 3rem;
+}
+.frameOne-contents {
+    .fOne-contents-left {
+        & > h1 {
+            font-size: 2rem;
+            letter-spacing: 0;
+        }
+        & > p {
+            font-size: 1rem;
+            padding: 1rem 0;
+        }
+    }
+}
 .left-text-under {
     & > h2 {
         font-size: 1.5rem;
     }
 }
-.fThr-contents-right {
-    padding: 1rem;
-    & > p:nth-of-type(1) {
-        font-size: 1.5rem;
+//mainSec-frameThr
+    .mainSec-frameThr-all {
+        .frameThr-contents {
+            .fThr-contents-right {
+                padding: 0rem;
+                & > p:nth-of-type(1) {
+                    font-size: 1.8rem;
+                }
+                & > p:nth-of-type(2) {
+                    letter-spacing: 0.1rem;
+                }
+            }
+        }
+        .frameThr-contents-under {
+            h2 {
+                font-size: 1.5rem;
+                margin: 0rem 8rem 1em;
+                height: 3.5rem;
+            }
+            h2 span {
+                font-size: 1.2rem;
+            }
+        }    
+    }
+    .mainSec-frameThr-under {
+        & > img {
+            top: -6rem;
+            &:nth-of-type(2) {
+                top: 1rem;
+                right: -4rem;
+            }
+        }
+    }
+//mainThr-frameOne
+.mainThr-frameOne {
+    .frameOne-frame {
+        .frameOne-frameSmall {
+            & > p {
+                font-size: 1.5rem;
+            }
+            & > p:nth-of-type(2) {
+                font-size: 1.2rem;
+            }
+        }
     }
 }
 //mainThr-frameSec
 .mainThr-frameSec {
     .mainThr-frameSec-all {
+        padding: 2rem 2rem 10rem;
+        .frameSec-Thema {
+            & > h1 {
+                font-size: 3.5rem;
+            }
+        }
         .question {
-            top: 30%;
+            top: 23%;
             left: 35%;
             & > p {
                 &:nth-of-type(1) {
-                    margin: 0px 30rem 0 0;
+                    margin: 0px 33rem 0 0;
+                }
+            }
+        }
+        .frameSec-list-all {
+            .frameSec-list-left {
+                .left-under {
+                    & > p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+            .frameSec-list-right {
+                .right-under {
+                    & > p {
+                        font-size: 1rem;
+                    }
                 }
             }
         }
     }
 } 
 .mainFour-all > svg {
-    top: -16rem;
+    top: -15rem;
+}
+.mainFour {
+    .mainFour-comment {
+        & > p {
+            font-size: 2rem;
+        }
+    }
+    .mainFour-text-midle {
+        font-size: 1.7rem;
+    }
+    .coating-text {
+        & > p {
+            font-size: 0.9rem;
+        }
+    }
+}
+//mainFive 
+.mainFive-all {
+    & > svg {
+        top: -15rem;
+    }
+    .mainFive-thema {
+        & > p {
+            font-size: 2rem;
+        }
+    }
+    .mainFive-table {
+        padding: 0 5rem;
+    .table-arrow-all {
+        top: 21%;
+        right: 29%;
+    }
+    }
+    .mainFive-text-under {
+        padding: 0 5rem;
+    }
+    .mainFive-frame-all {
+        padding: 2rem 5rem;
+        .mF-frame-img {
+            top: -10%;
+            right: 3%;
+        }
+    }
+}
+//mainSix
+.mainSix-frameOne {
+    .frameOne-frame {
+        .frameOne-frameSmall {
+            & > p {
+                font-size: 1.5rem;
+            }
+            & > p:nth-of-type(2) {
+                font-size: 1.2rem;
+            }
+        }
+    }
 }
 //footer
 .footer {
     & > svg {
-        top: -60%;
+        top: -53%;
     }
     .footer-img-foot {
         top: -30%;
@@ -969,7 +1110,19 @@ img {
         top: -70%;
         right: 3%;
     }
+    .footer-all {
+        .footer-text {
+            .text-midle {
+                .triangle{
+                    border-top: 1.45rem solid transparent;
+                  }
+            }
+        }
+    }
 }
+
+
+
 }
 @media screen and (max-width: 768px) {
     .img-all {
