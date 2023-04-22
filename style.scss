@@ -1,7 +1,5 @@
-.container {
-    background-color: 	#c3f6ff;
-    width: 100%;
-    max-width: 1500px;
+.bg-kskin {
+    background-color:     #CBE9EE;
     padding: 0;
     //効いてない？
 }
@@ -9,7 +7,6 @@ p, h1, h2, h3, h4 {
     font-family:"Hiragino Sans", "ヒラギノ角ゴシック";
     color: #a1978f;
 }
-
 //header
 img {
     width: 100%;
@@ -62,6 +59,12 @@ img {
 }
 .header-text {
     padding-bottom: 3rem;
+    position: relative;
+    .text-main {
+        position: absolute;
+        top: -25%;
+        left: 28%;
+    }
 }
 .header-text-under {
     display: flex;
@@ -69,9 +72,9 @@ img {
     .text-kakko {
         width: 100%;
         /* 線の長さ */
-        --len: 4rem;
+        --len: 5rem;
         /* 線の太さ */
-        --size: 0.18rem;
+        --size: 0.3rem;
         /* 線の色 */
         --bColor: #F8F8FF;
         /* 次の黒線の位置 */
@@ -129,20 +132,26 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    padding: 5rem 0px;
+    padding: 5rem 0 0 0;
+    & > svg {
+        margin-top: 20%;
+    }
 }
 .main-img {
-    width: 15%;
+    width: 18%;
     position: absolute;
-    top: -13%;
-    left: 2%;
+    top: -15%;
+    left: 0%;
 }
 .mainOne-contents {
-    display: flex;
+    //display: flex; positionで修正してみる
+    position: relative;
     .mainOne-left {
-        width: 60%;
-        padding-left: 15%;
-        margin: auto;
+        width: 45%;
+        padding-left: 0;
+        position: absolute;
+        top: 10%;
+        left: 15%;
         & > img {
             width: 50%;
         }
@@ -179,13 +188,16 @@ img {
     }
     .mainOne-right {
         width: 40%;
+        position: absolute;
+        top: 3%;
+        right: 0%;
         & > img {
             width: 70%;
         }
     }
 }
 //mainSec frameOne
-.mainSec-all.container {
+.mainSec-all.bg-kskin {
     padding: 3rem 10rem;
 }
 .mainSec-frameOne {
@@ -199,7 +211,7 @@ img {
         width: 50%;
         padding: 0.5rem;
         & > h1 {
-            font-size: 2rem;
+            font-size: 2.5rem;
             letter-spacing: 0.3rem;
         }
         & > p {
@@ -228,12 +240,15 @@ img {
     background-image: url(img/img18.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 5rem 0;
 }
 .fOne-img {
-    width: 10%;
-    position: relative;
-    top: -5rem;
-    left: 21rem;
+    width: 11%;
+    position: absolute;
+    top: -14%;
+    left: 15%;
 }
 .frameSec-contents {
     display: flex;
@@ -243,9 +258,12 @@ img {
         .left-title {
             & > h1 {
                 letter-spacing: 0.3rem;
-                font-size: 4rem;
+                font-size: 4.5rem;
                 margin-bottom: 0;
                 text-align: center;
+                & > span {
+                    font-size: 3rem;
+                }
             }
             & > h3 {
                 letter-spacing: 0.3rem;
@@ -264,8 +282,7 @@ img {
             }
         }
         .left-text-under {
-            padding-left: 3rem;
-            margin-top: 2rem;
+            margin: 2rem auto 0 2rem;
             letter-spacing: 0.1rem;
             & > h2 {
                 -webkit-text-stroke: 0.04rem #FFF;
@@ -284,6 +301,8 @@ img {
             line-height: 8rem;
             &:nth-of-type(1) {
                 margin-left: 20%;
+                margin-bottom: 4rem;
+                box-shadow: 0 0 0.5rem gray inset;
             }
             &:nth-of-type(2) {
                 margin-left: 8%;
@@ -320,13 +339,14 @@ img {
         padding: 3rem 3rem 0;
         .fThr-contents-left {
             width: 50%;
+            margin: auto;
         }
         .fThr-contents-right {
             width: 50%;
-            padding: 2rem;
+            padding: 1rem;
             & > p:nth-of-type(1) {
                 letter-spacing: 0.3rem;
-                font-size: 2rem;
+                font-size: 2.1rem;
                 font-weight: bold;
             }
             & > p:nth-of-type(2) {
@@ -342,8 +362,9 @@ img {
             margin: 0rem 11rem 1em;
             padding: 0 2rem;
             text-align: center;
-            color: #fff;
             background: #ebc9b7;
+            color: #a1978f;
+            font-size: 1.7rem;
           }
           
           h2:before,
@@ -353,7 +374,7 @@ img {
             display: block;
             height: 3rem;
             content: '';
-            border: 1.8rem solid #ebc9b7;
+            border: 1.75rem solid #ebc9b7;
           }
           
           h2:before {
@@ -393,10 +414,10 @@ img {
         padding: 1rem;
         background-color: #6a5247;
         font-size: 2rem;
-        color: white;
         margin: 4rem 0;
         & > p {
             margin-bottom: 0;
+            color: #fff;
         }
     }
 }
@@ -974,7 +995,7 @@ img {
             }
         }
     }
-    .mainSec-all.container {
+    .mainSec-all.bg-kskin {
         padding: 3rem 3rem;
     }
     .frameOne-contents {
