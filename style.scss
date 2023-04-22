@@ -242,7 +242,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    padding: 5rem 0;
+    padding: 2rem 0;
 }
 .fOne-img {
     width: 11%;
@@ -356,15 +356,15 @@ img {
     }
     .frameThr-contents-under {
         h2 {
-            line-height: 3.7rem;
+            line-height: 3.5rem;
             position: relative;
             height: 3.55rem;
             margin: 0rem 11rem 1em;
-            padding: 0 2rem;
             text-align: center;
             background: #ebc9b7;
             color: #a1978f;
             font-size: 1.7rem;
+            box-shadow: 0rem 0.1rem;
           }
           
           h2:before,
@@ -375,6 +375,7 @@ img {
             height: 3rem;
             content: '';
             border: 1.75rem solid #ebc9b7;
+            box-shadow: 0rem 0.1rem;
           }
           
           h2:before {
@@ -436,8 +437,12 @@ img {
                 font-size: 2rem;
                 color: white;
                 margin-bottom: 0;
-                & > span {
-                    font-size: 3rem;
+                & > span:nth-of-type(1) {
+                    font-size: 2.5rem;
+                }
+                & > span:nth-of-type(2) {
+                    font-size: 3.5rem;
+                    font-family: monospace;
                 }
             }
             & > p:nth-of-type(2) {
@@ -460,33 +465,37 @@ img {
     background-repeat: no-repeat;
     .mainThr-frameSec-all {
         position: relative;
-        padding: 2rem 2rem 10rem;
+        padding: 2rem 2rem 12rem;
         .frameSec-Thema {
-            width: 40%;
-            margin: 5rem 5rem 13rem;
+            width: 50%;
+            margin: 1rem 4rem 17rem;
             & > h1 {
                 color: white;
-                font-size: 4rem;
+                font-size: 4.5rem;
                 letter-spacing: 1rem;
             }
         }
         .question {
             display: flex;
             position: absolute;
-            top: 35%;
-            left: 38%;
+            top: 24%;
+            left: 35%;
             transform: rotate(-20deg);
             & > p {
                 color: white;
                 font-size: 5rem;
                 &:nth-of-type(1) {
-                    margin: 0px 33rem 0 0;
+                    margin: 0px 39rem 0 0;
                 }
             }
         }
+        .frame-img {
+            width: 90%;
+            margin: auto;
+        }
         .frameSec-list-all {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
             .frameSec-list-left {
                 width: 35%;
                 .left-under {
@@ -499,6 +508,8 @@ img {
                     }
                     & > p {
                         color: #FFF;
+                        margin-top: 0.5rem;
+                        font-size: 1.3rem;
                     }
                     
                 }
@@ -526,6 +537,9 @@ img {
                     }
                     & > p {
                         color: #FFF;
+                        font-size: 1.3rem;
+                        width: 60%;
+                        margin: 0.5rem auto;
                     }
                     
                 }
@@ -547,15 +561,15 @@ img {
     padding: 3rem;
     .mainFour-comment {
         & > p {
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
     }
     .mainFour-text-midle {
-        width: 70%;
+        width: 90%;
         margin: 3rem auto;
         padding: 1rem;
         background-color: #6a5247;
-        font-size: 1.5rem;
+        font-size: 2rem;
         & > p {
             margin-bottom: 0;
             color: #FFF;
@@ -606,10 +620,10 @@ img {
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
-        width: 80%;
-        margin-left: 9rem;
+        width: 100%;
+        margin-left: 0rem;
         & > p {
-            font-size: 2rem;
+            font-size: 2.5rem;
             padding: 3rem;
             letter-spacing: 0.3rem;
         }
@@ -620,7 +634,7 @@ img {
         .table {
             text-align: center;
             & > thead > tr > th {
-                font-size: 1.5rem;
+                font-size: 2rem;
             }
             .table-info {
                 //background-color: aqua;
@@ -628,12 +642,16 @@ img {
             }
             & > tbody > tr {
                 .f-th {
-                    padding-top: 1rem;
+                    vertical-align: middle;
+                    font-size: 2rem;
                 }
                 & > td {
-                    font-size: 1.5rem;
+                    font-size: 2rem;
+                    padding: 0 3rem;
+                    vertical-align: middle;
                     &:nth-of-type(2) {
-                        font-size: 1.7rem;
+                        font-size: 3rem;
+                        padding: 0 2rem;
                     }
                 }
         }
@@ -641,15 +659,15 @@ img {
     .table-arrow-all {
         position: absolute;
         top: 20%;
-        right: 29%;
+        right: 32%;
         .table-arrow {
             height: 2.1rem;
-            width: 3.3rem;
+            width: 3.5rem;
             background-color: yellow;
             position:  relative;
             font-size: 1.3rem;
             text-align: end;
-            margin-bottom: 1.5rem;
+            margin-bottom: 2.4rem;
         }
         .table-arrow::after {
             content:  '';
@@ -694,7 +712,7 @@ img {
             padding: 1.5rem 1.5rem 0;
             border-radius: 3%;
             & > p {
-                font-size: 1.5rem;
+                font-size: 1.8rem;
                 font-weight: bold;
                 text-align: center;
             }
@@ -712,22 +730,32 @@ img {
                     }
                     .table {
                         text-align: center;
-                        & > thead > tr > th {
-                            background-color: deepskyblue;
+                        margin-top: 2rem;
+                        & > thead > tr {
+                            border-width: 0.2rem 0;
+                            & > th {
+                                border-width: 0 0.2rem;
+                                background-color: #59cbefc7;
+                                }
                         }
-                        & > tbody > tr > th, td {
-                            background-color: deepskyblue;
+                        & > tbody > tr {
+                            border-width: 0.2rem 0;
+                            & > th, td {
+                                border-width: 0 0.2rem;
+                                background-color: #59cbefc7;
+                                font-weight: bold;
+                            }
                         }
                     }
                 }
                 .box-img-right {
-                    width: 40%;
+                    width: 43%;
                     margin: auto;
                 }
             }
         }
         .mF-frameSec-all {
-            background-color: deepskyblue;
+            background-color: #59cbefc7;
             margin: 3rem 0;
             padding: 3rem 0;
             position: relative;
@@ -791,8 +819,12 @@ img {
                 font-size: 2rem;
                 color: white;
                 margin-bottom: 0;
-                & > span {
-                    font-size: 3rem;
+                & > span:nth-of-type(1) {
+                    font-size: 2.5rem;
+                }
+                & > span:nth-of-type(2) {
+                    font-size: 3.5rem;
+                    font-family: monospace;
                 }
             }
             & > p:nth-of-type(2) {
@@ -813,7 +845,7 @@ img {
     position: relative;
     & > svg {
         position: absolute;
-        top: -68%;
+        top: -61%;
     }
     .footer-img-foot {
         position: absolute;
@@ -828,8 +860,16 @@ img {
     .footer-all {
         text-align: center;
         .footer-text {
-            & > h1 > span {
+            & > h1 {
+                color: black;
+                font-weight: bold;
                 font-size: 3rem;
+                & > span {
+                    font-size: 3rem;
+                }
+            }
+            & > p {
+                font-size: 1.2rem;
             }
             .text-midle {
                 display: flex;
@@ -860,6 +900,7 @@ img {
             }
             .footer-number {
                 font-size: 7rem;
+                font-weight: bold;
                 color: rgb(11, 140, 246);
             }
         }
