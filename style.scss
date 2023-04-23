@@ -1124,6 +1124,256 @@ img {
     }
 }
 }
+@media screen and (max-width: 1024px) {
+    .main-all {
+        height: 31rem;
+        & > svg {
+            margin-top: 23%;
+        }
+    }
+    //mainOne
+    .mainOne-contents {
+        .mainOne-left {
+            width: 61%;
+            }
+    }
+    //mainSec
+    .mainSec-all.bg-kskin {
+        padding: 10rem 5rem 3rem;
+    }
+    //mainThr-frameOne
+    .mainThr-frameOne {
+        .frameOne-frame {
+            .frameOne-frameSmall {
+                & > p {
+                    font-size: 1.3rem;
+                    & > span:nth-of-type(1) {
+                        font-size: 2rem;
+                    }
+                    & > span:nth-of-type(2) {
+                        font-size: 3rem;
+                    }
+                }
+                & > p:nth-of-type(2) {
+                    font-size: 1rem;
+                }
+                .img-all {
+                    & > img:nth-of-type(1) {
+                        height: 4rem;
+                    }
+                    & > img:nth-of-type(2) {
+                        height: 4rem;
+                    }
+                    & > span {
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+    }
+    //mainThr-frameSec
+    .mainThr-frameSec {
+        .mainThr-frameSec-all {
+            .frameSec-Thema {
+                margin: 1rem 3rem 10rem;
+                width: 55%;
+                & > h1 {
+                    font-size: 3rem;
+                }
+            }
+            .question {
+                top: 23%;
+                left: 35%;
+                & > p {
+                    font-size: 4rem;
+                    &:nth-of-type(1) {
+                        margin: 0px 27rem 0 0;
+                    }
+                }
+            }
+            .frameSec-list-all {
+                .frameSec-list-left {
+                    .left-under {
+                        & > p {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+                .frameSec-list-right {
+                    .right-under {
+                        & > p {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    .mainFour-all > svg {
+        top: -12.5rem;
+    }
+    .mainFour {
+        .mainFour-comment {
+            & > p {
+                font-size: 1.8rem;
+            }
+        }
+        .mainFour-text-midle {
+            font-size: 1.5rem;
+        }
+        .coating-text {
+            & > p {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+
+
+    //mainFive 
+    .mainFive-all {
+        & > svg {
+            top: -13rem;
+        }
+        .mainFive-thema {
+            & > p {
+                font-size: 1.8rem;
+            }
+        }
+        .mainFive-table {
+            padding: 0 3rem;
+            .table-arrow-all {
+                top: 21%;
+                right: 25%;
+                .table-arrow {
+                    margin-bottom: 1.7rem;
+                }
+            }
+            .table {
+                & > thead > tr > th {
+                    font-size: 1.8rem;
+                }
+                & > tbody > tr {
+                    .f-th {
+                        font-size: 1.8rem;
+                    }
+                    & > td {
+                        font-size: 2rem;
+                        &:nth-of-type(2) {
+                            font-size: 1.5rem;                        }
+                    }
+                }
+            }
+        }
+        .mainFive-text-under {
+            padding: 0 3rem;
+        }
+        .mainFive-frame-all {
+            padding: 2rem 3rem;
+            .mF-frame-img {
+                top: -8%;
+                right: 1%;
+            }
+            .mF-frame-contents {
+                & > p {
+                    font-size: 1.5rem;
+                }
+                .mF-frame-box {
+                    .box-text-left {
+                        & > p:nth-of-type(1){
+                            font-size: 0.8rem;
+                        }
+                        & > p:nth-of-type(2){
+                            font-size: 0.8rem;
+                        }
+                        .table {
+                            margin-top: 1rem;
+                        }
+                    }
+                }
+            }
+            .mF-frameSec-all {
+                .frameSec-Square {
+                    & > p {
+                        font-size: 0.8rem;
+                        &:nth-of-type(3) {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //mainSix
+    .mainSix-frameOne {
+        padding: 2rem 4rem 10rem;
+        .frameOne-frame {
+            .frameOne-frameSmall {
+                & > p {
+                    font-size: 1.3rem;
+                    & > span:nth-of-type(1) {
+                        font-size: 2rem;
+                    }
+                    & > span:nth-of-type(2) {
+                        font-size: 3rem;
+                    }
+                }
+                & > p:nth-of-type(2) {
+                    font-size: 1rem;
+                }
+                .img-all {
+                    & > img:nth-of-type(1) {
+                        height: 4rem;
+                    }
+                    & > img:nth-of-type(2) {
+                        height: 4rem;
+                    }
+                    & > span {
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+    }
+    //footer
+    .footer {
+        & > svg {
+            top: -50%;
+        }
+        .footer-img-foot {
+            top: -27%;
+        }
+        .footer-img-cat{
+            top: -62%;
+            right: 2%;
+        }
+        .footer-all {
+            .footer-text {
+                & > h1 {
+                    font-size: 2.5rem;
+                }
+                & > p {
+                    font-size: 1rem;
+                }
+                .text-midle {
+                    .triangle{
+                        border-top: 1.47rem solid transparent;
+                      }
+                }
+                .footer-number {
+                    font-size: 6rem;
+                }
+            }
+            .company-name {
+                .company-name-text {
+                    & > p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width: 768px) {
     .text-main {
         top: -20%;
@@ -1447,8 +1697,8 @@ img {
                             padding: 0 2rem;
                         }
                     }
+                }
             }
-        }
         .table-arrow-all {
             top: 21%;
             right: 23%;
@@ -1522,9 +1772,7 @@ img {
                 }
             }
         }
-    }
-    
-    
+    }  
     //mainSix
     .mainSix-frameOne {
         padding: 2rem 4rem 6rem;
@@ -1606,8 +1854,4 @@ img {
             }
         }
     }
-    
-
-
-
 }
