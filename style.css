@@ -880,6 +880,7 @@ img {
 .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left .table {
   text-align: center;
   margin-top: 2rem;
+  border-color: #fff;
 }
 
 .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left .table > thead > tr {
@@ -1047,6 +1048,7 @@ img {
 }
 
 .footer .footer-all .footer-text > p {
+  color: black;
   font-size: 1.2rem;
 }
 
@@ -1106,6 +1108,7 @@ img {
 }
 
 .footer .footer-all .company-name .company-name-text > p {
+  color: black;
   margin-bottom: 0;
   font-size: 1.5rem;
 }
@@ -1428,10 +1431,15 @@ img {
     margin: 1rem auto;
   }
   .mainThr-frameOne .frameOne-frame .frameOne-frameSmall .img-all > img:nth-of-type(1) {
-    width: 50%;
+    width: 20%;
+    height: 2rem;
   }
   .mainThr-frameOne .frameOne-frame .frameOne-frameSmall .img-all > img:nth-of-type(2) {
-    width: 40%;
+    width: 20%;
+    height: 3rem;
+  }
+  .mainThr-frameOne .frameOne-frame .frameOne-frameSmall .img-all > span {
+    font-size: 3rem;
   }
   .mainThr-frameSec {
     background-size: contain;
@@ -1570,24 +1578,72 @@ img {
   .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-textOne {
     font-size: 0.8rem;
   }
+  .mainSix-frameOne {
+    padding: 2rem 4rem 6rem;
+  }
   .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p {
+    font-size: 0.8rem;
+    margin-top: 0rem;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p > span:nth-of-type(1) {
+    font-size: 1.5rem;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p > span:nth-of-type(2) {
     font-size: 1.5rem;
   }
   .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p:nth-of-type(2) {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall .img-all {
+    margin: 1rem auto;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall .img-all > img:nth-of-type(1) {
+    width: 20%;
+    height: 2rem;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall .img-all > img:nth-of-type(2) {
+    width: 20%;
+    height: 3rem;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall .img-all > span {
+    font-size: 3rem;
   }
   .footer > svg {
-    top: -53%;
+    top: -42%;
   }
   .footer .footer-img-foot {
-    top: -30%;
+    top: -22%;
   }
   .footer .footer-img-cat {
-    top: -70%;
-    right: 3%;
+    top: -50%;
+    right: 6%;
+  }
+  .footer .footer-all .footer-text {
+    padding-top: 2rem;
+  }
+  .footer .footer-all .footer-text > h1 {
+    font-size: 2rem;
+  }
+  .footer .footer-all .footer-text > h1 > span {
+    font-size: 2rem;
+  }
+  .footer .footer-all .footer-text > p {
+    font-size: 1rem;
   }
   .footer .footer-all .footer-text .text-midle .triangle {
-    border-top: 1.45rem solid transparent;
+    border-top: 1.24rem solid transparent;
+    border-left: 1.3rem solid #fff;
+    border-bottom: 1.3rem solid transparent;
+  }
+  .footer .footer-all .footer-text .footer-number {
+    font-size: 4rem;
+  }
+  .footer .footer-all .company-name .company-name-text {
+    padding-left: 25%;
+  }
+  .footer .footer-all .company-name .company-name-text > p {
+    font-size: 0.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
