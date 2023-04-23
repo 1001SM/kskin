@@ -7,6 +7,9 @@ p, h1, h2, h3, h4 {
     font-family:"Hiragino Sans", "ヒラギノ角ゴシック";
     color: #a1978f;
 }
+body {
+    background-color: #fbf8ef;
+}
 //header
 img {
     width: 100%;
@@ -134,7 +137,7 @@ img {
     position: relative;
     padding: 5rem 0 0 0;
     & > svg {
-        margin-top: 20%;
+        margin-top: 14%;
     }
 }
 .main-img {
@@ -144,13 +147,11 @@ img {
     left: 0%;
 }
 .mainOne-contents {
-    //display: flex; positionで修正してみる
-    position: relative;
     .mainOne-left {
         width: 45%;
         padding-left: 0;
         position: absolute;
-        top: 10%;
+        top: 14%;
         left: 15%;
         & > img {
             width: 50%;
@@ -162,12 +163,12 @@ img {
         }
         .mainOnetext-all {
             .text-square {
-                background-color: deepskyblue;
-                margin: 1rem 10rem 1rem 0rem;
-                padding-left: 1rem;
                 & > p {
+                    display: inline-block;
+                    background-color: #7FCDEC;
                     font-size: 3rem;
                     color: white;
+                    padding: 0.5rem 2rem;
                     & > sup {
                         font-size: 1rem;
                         top: -1.5em;
@@ -175,9 +176,9 @@ img {
                     }                
                 }
                 &:nth-of-type(3) {
-                    margin: 1rem 8rem 0rem 0rem;                    
                     & > p {
                     margin-bottom: 0;
+                    white-space: nowrap;
                     }
                 }
             }
@@ -187,18 +188,18 @@ img {
         }
     }
     .mainOne-right {
-        width: 40%;
+        width: 45%;
         position: absolute;
-        top: 3%;
+        top: -3%;
         right: 0%;
         & > img {
-            width: 70%;
+            width: 85%;
         }
     }
 }
 //mainSec frameOne
 .mainSec-all.bg-kskin {
-    padding: 3rem 10rem;
+    padding: 10rem 2rem 5rem;
 }
 .mainSec-frameOne {
     margin-bottom: 3rem;
@@ -206,17 +207,22 @@ img {
 .frameOne-contents {
     display: flex;
     background-color: white;
-    padding: 1.5rem;
+    padding: 3rem;
     .fOne-contents-left {
         width: 50%;
-        padding: 0.5rem;
+        padding: 0 2rem 0 0;
         & > h1 {
             font-size: 2.5rem;
-            letter-spacing: 0.3rem;
+            font-weight: bold;
+            line-height: 3rem;
+            letter-spacing: 0.5rem;
         }
         & > p {
-            font-size: 1.3rem;
             padding: 2rem 0;
+            line-height: 2rem;
+            letter-spacing: 0.5rem;
+            font-weight: bold;
+            font-size: 1.5rem;
         }
     }
     .fOne-contents-right {
@@ -262,7 +268,7 @@ img {
                 margin-bottom: 0;
                 text-align: center;
                 & > span {
-                    font-size: 3rem;
+                    font-size: 4rem;
                 }
             }
             & > h3 {
@@ -629,7 +635,7 @@ img {
         }
     }
     .mainFive-table {
-        padding: 0 10rem;
+        padding: 0 2rem;
         position: relative;
         .table {
             text-align: center;
@@ -650,7 +656,7 @@ img {
                     padding: 0 3rem;
                     vertical-align: middle;
                     &:nth-of-type(2) {
-                        font-size: 3rem;
+                        font-size: 2rem;
                         padding: 0 2rem;
                     }
                 }
@@ -700,7 +706,7 @@ img {
     }
     .mainFive-frame-all {
         position: relative;
-        padding: 2rem 10rem;
+        padding: 2rem 2rem;
         .mF-frame-img {
             position: absolute;
             width: 15%;
@@ -710,11 +716,14 @@ img {
         .mF-frame-contents {
             border: solid rgb(8, 181, 244);
             padding: 1.5rem 1.5rem 0;
-            border-radius: 3%;
+            border-radius: 12px;
             & > p {
                 font-size: 1.8rem;
                 font-weight: bold;
                 text-align: center;
+                letter-spacing: 0.3rem;
+                padding-bottom: 1.5rem;
+                margin-bottom: 0;
             }
             .mF-frame-box {
                 display: flex;
@@ -1131,6 +1140,13 @@ img {
             margin-top: 23%;
         }
     }
+    .header-text-under {
+        .img-cat1 {
+            width: 20%;
+            left: -2rem;
+            top: -2rem;
+        }
+    } 
     //mainOne
     .mainOne-contents {
         .mainOne-left {
