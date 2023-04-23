@@ -55,7 +55,9 @@ img {
 }
 .header-text-under {
     display: flex;
-    padding: 0 1rem 0 8rem;
+    position: relative;
+    width: 70%;
+    margin: auto;
     .text-kakko {
         width: 100%;
         /* 線の長さ */
@@ -88,10 +90,10 @@ img {
         }
     }
     .img-cat1 {
-        width: 15%;
-        left: -2rem;
-        top: -3rem;
-        position: relative;
+        position: absolute;
+        width: 16%;
+        left: 95%;
+        top: -12%;
     }
 }
 .img-all {
@@ -279,9 +281,9 @@ img {
             width: 90%;
             margin: 4rem 7rem 0;
             & > h2 {
-                -webkit-text-stroke: 0.04rem #FFF;
                 font-weight: bold;
                 font-size: 3rem;
+                text-shadow: 0.1rem 0.1rem 0 #FFF, -0.1rem -0.1rem 0 #FFF, -0.1rem 0.1rem 0 #FFF, 0.1rem -0.1rem 0 #FFF, 0px 0.1rem 0 #FFF, 0 -0.1rem 0 #FFF, -0.1rem 0 0 #FFF, 0.1rem 0 0 #FFF;
             }
         }
     }
@@ -899,6 +901,7 @@ img {
                         padding: 0.5rem;
                         color: #fff;
                         background-color: #0b8cf6;
+                        text-shadow: none;
                     }
                     & > span {
                         font-size: 0.9rem;
@@ -940,6 +943,9 @@ img {
 }
 
 @media screen and (max-width: 1280px) {
+.header-text-under {
+        width: 81%;
+}
 .main-all {
     height: 34rem;
     & > svg {
@@ -950,27 +956,32 @@ img {
 .mainOne-contents {
     .mainOne-left {
         width: 52%;
-        }
+        .mainOnetext-all {
+            .text-square > p {
+                font-size: 2.5rem;
+            }
+        } 
+    }
+    .mainOne-right {
+        top: 8%;
+    }
 }
 //mainSec
-.mainSec-all.bg-kskin {
-    padding: 10rem 10rem 3rem;
-}
 .frameOne-contents {
     .fOne-contents-left {
         & > h1 {
-            font-size: 2rem;
             letter-spacing: 0;
         }
         & > p {
-            font-size: 1rem;
+            font-size: 1.2rem;
             padding: 1rem 0;
         }
     }
 }
 .left-text-under {
+    margin: 4rem 6rem 0;
     & > h2 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 }
 //mainSec-frameThr
@@ -989,11 +1000,17 @@ img {
         .frameThr-contents-under {
             h2 {
                 font-size: 1.5rem;
-                margin: 0rem 8rem 1em;
+                margin: 2rem 8rem 1em;
                 height: 3.5rem;
+                &::before {
+                    height: 2.8rem;
+                }
+                &::after {
+                    height: 2.8rem;
+                }
             }
             h2 span {
-                font-size: 1.2rem;
+                font-size: 2rem;
             }
         }    
     }
@@ -1061,11 +1078,13 @@ img {
 .mainFour {
     .mainFour-comment {
         & > p {
-            font-size: 2rem;
+            font-size: 2.3rem;
         }
     }
     .mainFour-text-midle {
-        font-size: 1.7rem;
+        & > p {
+            font-size: 2rem;
+        }
     }
     .coating-text {
         & > p {
@@ -1086,8 +1105,11 @@ img {
     .mainFive-table {
         padding: 0 5rem;
     .table-arrow-all {
-        top: 21%;
-        right: 29%;
+        top: 20%;
+        right: 26%;
+        .table-arrow {
+            margin-bottom: 1.35rem;
+        }
     }
     }
     .mainFive-text-under {
@@ -1099,6 +1121,21 @@ img {
             top: -10%;
             right: 3%;
         }
+        .mF-frame-contents {
+            & > p {
+                font-size: 1.6rem;
+            }
+            .mF-frame-box {
+                .box-text-left > p:nth-of-type(1) {
+                    font-size: 1rem;
+                }
+            }
+        } 
+        .mF-frameSec-all {
+            .frameSec-Square > p {
+                font-size: 1rem;
+            } 
+        } 
     }
 }
 //mainSix
@@ -1143,24 +1180,89 @@ img {
         & > svg {
             margin-top: 23%;
         }
+        .main-img {
+            top: -17%;
+            left: -2%;
+        }
     }
     .header-text-under {
+        width: 90%;
+        .text-kakko {
+            .text-inside {
+                & > h3 {
+                    font-size: 1.5rem;
+                }
+                & > h4 {
+                    font-size: 1.3rem;
+                }
+            }
+        } 
         .img-cat1 {
-            width: 20%;
-            left: -2rem;
-            top: -2rem;
+            left: 95%;
         }
     } 
     //mainOne
     .mainOne-contents {
         .mainOne-left {
-            width: 61%;
+            width: 50%;
+            & > h3 {
+                font-size: 1.5rem;
             }
+            .mainOnetext-all {
+                .text-square {
+                    & > p {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+        .mainOne-right {
+            top: 8%;
+        }
     }
     //mainSec
     .mainSec-all.bg-kskin {
-        padding: 10rem 5rem 3rem;
+        padding: 5rem 2rem 3rem;
     }
+    .frameOne-contents .fOne-contents-left > p {
+        font-size: 1rem;
+        line-height: normal;
+        letter-spacing: 0.2rem;
+    }
+    .mainSec-frameSec {
+        padding: 0;
+    }
+    .frameSec-contents {
+        .fSec-contents-left {
+            .left-title {
+                & > h1 {
+                    font-size: 4rem;
+                }
+                & > h3 {
+                    font-size: 1.5rem;
+                }
+                & > p {
+                    font-size: 1.3rem;
+                }
+            } 
+            .left-text-under {
+                margin: 4rem 5rem 0;
+                & > h2 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    } 
+    .mainSec-frameThr-all {
+        .frameThr-contents {
+            padding: 1rem 1rem 0;
+            .fThr-contents-right {
+                > p:nth-of-type(2) {
+                    font-size: 1.1rem;
+                }
+            } 
+        }
+    } 
     //mainThr-frameOne
     .mainThr-frameOne {
         .frameOne-frame {
