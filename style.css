@@ -1,16 +1,18 @@
 @charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  background-color: #fbf8ef;
+}
+
 .bg-kskin {
   background-color: #CBE9EE;
   padding: 0;
 }
 
 p, h1, h2, h3, h4 {
-  font-family: "Hiragino Sans", "ヒラギノ角ゴシック";
+  font-family: 'Noto Sans Japanese', sans-serif;
   color: #a1978f;
-}
-
-body {
-  background-color: #fbf8ef;
 }
 
 img {
@@ -35,29 +37,6 @@ img {
   position: absolute;
 }
 
-/*h2 span {
-	height: 200px;
-	position: absolute;
-	width: 20px;
-	left: 380px;
-	top: 10px;
-    -webkit-text-stroke: 0.1rem #FFF;
-    font-weight: bold;
-	transform-origin: bottom center;
-	}
-  .char1 { transform: rotate(-37deg); }
-  .char2 { transform: rotate(-30deg); }
-  .char3 { transform: rotate(-23deg); }
-  .char4 { transform: rotate(-16deg); }
-  .char5 { transform: rotate(-9deg); }
-  .char6 { transform: rotate(-2deg); }
-  .char7 { transform: rotate(5deg); }
-  .char8 { transform: rotate(12deg); }
-  .char9 { transform: rotate(19deg); }
-  .char10 { transform: rotate(26deg); }
-  .char11 { transform: rotate(33deg); }
-  .char12 { transform: rotate(40deg); }
-*/
 .text-midle {
   text-align: center;
 }
@@ -65,7 +44,7 @@ img {
 .text-midle > p {
   font-size: 1.5rem;
   font-weight: bold;
-  -webkit-text-stroke: 0.04rem #FFF;
+  text-shadow: 0.1rem 0.1rem 0 #FFF, -0.1rem -0.1rem 0 #FFF, -0.1rem 0.1rem 0 #FFF, 0.1rem -0.1rem 0 #FFF, 0px 0.1rem 0 #FFF,  0 -0.1rem 0 #FFF, -0.1rem 0 0 #FFF, 0.1rem 0 0 #FFF;
 }
 
 .header-text {
@@ -76,7 +55,8 @@ img {
 .header-text .text-main {
   position: absolute;
   top: -25%;
-  left: 28%;
+  left: 26%;
+  width: 50%;
 }
 
 .header-text-under {
@@ -297,50 +277,55 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 2rem 0;
 }
 
 .frameSec-contents .fSec-contents-left {
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 
 .frameSec-contents .fSec-contents-left .left-title > h1 {
   letter-spacing: 0.3rem;
-  font-size: 4.5rem;
+  font-size: 5rem;
   margin-bottom: 0;
   text-align: center;
 }
 
 .frameSec-contents .fSec-contents-left .left-title > h1 > span {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .frameSec-contents .fSec-contents-left .left-title > h3 {
   letter-spacing: 0.3rem;
   text-align: center;
+  font-size: 2rem;
 }
 
 .frameSec-contents .fSec-contents-left .left-title .title-line {
   border: solid;
-  width: 80%;
+  width: 70%;
   margin: auto;
+  margin: 1rem auto;
 }
 
 .frameSec-contents .fSec-contents-left .left-title > p {
-  width: 90%;
-  padding-left: 3rem;
-  margin-top: 1rem;
+  width: 70%;
   letter-spacing: 0.3rem;
+  margin: auto;
+  font-size: 1.5rem;
 }
 
 .frameSec-contents .fSec-contents-left .left-text-under {
-  margin: 2rem auto 0 2rem;
   letter-spacing: 0.1rem;
+  width: 90%;
+  margin: 4rem 7rem 0;
 }
 
 .frameSec-contents .fSec-contents-left .left-text-under > h2 {
   -webkit-text-stroke: 0.04rem #FFF;
   font-weight: bold;
+  font-size: 3rem;
 }
 
 .frameSec-contents .fSec-contents-right {
@@ -348,8 +333,8 @@ img {
 }
 
 .frameSec-contents .fSec-contents-right .text-circle {
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 9rem;
   border-radius: 50%;
   border: solid 3px white;
   text-align: center;
@@ -358,13 +343,9 @@ img {
 
 .frameSec-contents .fSec-contents-right .text-circle:nth-of-type(1) {
   margin-left: 20%;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
   -webkit-box-shadow: 0 0 0.5rem gray inset;
           box-shadow: 0 0 0.5rem gray inset;
-}
-
-.frameSec-contents .fSec-contents-right .text-circle:nth-of-type(2) {
-  margin-left: 8%;
 }
 
 .frameSec-contents .fSec-contents-right .text-circle:nth-of-type(3) {
@@ -374,7 +355,7 @@ img {
 }
 
 .frameSec-contents .fSec-contents-right .text-circle > p {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: white;
   font-weight: bold;
   margin-bottom: 0;
@@ -398,37 +379,40 @@ img {
   display: -ms-flexbox;
   display: flex;
   padding: 3rem 3rem 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .mainSec-frameThr-all .frameThr-contents .fThr-contents-left {
   width: 50%;
-  margin: auto;
 }
 
 .mainSec-frameThr-all .frameThr-contents .fThr-contents-right {
-  width: 50%;
+  width: 40%;
   padding: 1rem;
 }
 
 .mainSec-frameThr-all .frameThr-contents .fThr-contents-right > p:nth-of-type(1) {
   letter-spacing: 0.3rem;
-  font-size: 2.1rem;
+  font-size: 2.3rem;
   font-weight: bold;
 }
 
 .mainSec-frameThr-all .frameThr-contents .fThr-contents-right > p:nth-of-type(2) {
   letter-spacing: 0.3rem;
+  font-size: 1.3rem;
 }
 
 .mainSec-frameThr-all .frameThr-contents-under h2 {
-  line-height: 3.5rem;
+  line-height: 3.8rem;
   position: relative;
-  height: 3.55rem;
-  margin: 0rem 11rem 1em;
+  height: 3.8rem;
+  margin: 2rem 13rem 1em;
   text-align: center;
   background: #ebc9b7;
   color: #a1978f;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   -webkit-box-shadow: 0rem 0.1rem;
           box-shadow: 0rem 0.1rem;
 }
@@ -438,7 +422,7 @@ img {
   position: absolute;
   top: 0;
   display: block;
-  height: 3rem;
+  height: 3.8rem;
   content: '';
   border: 1.75rem solid #ebc9b7;
   -webkit-box-shadow: 0rem 0.1rem;
@@ -469,8 +453,8 @@ img {
 .mainSec-frameThr-under > img {
   width: 10%;
   position: absolute;
-  top: -7rem;
-  right: 5rem;
+  top: -9rem;
+  right: 10rem;
 }
 
 .mainSec-frameThr-under > img:nth-of-type(2) {
@@ -483,13 +467,13 @@ img {
   text-align: center;
   padding: 1rem;
   background-color: #6a5247;
-  font-size: 2rem;
-  margin: 4rem 0;
+  margin: 6rem 0;
 }
 
 .mainSec-frameThr-under .fThr-under-f > p {
   margin-bottom: 0;
   color: #fff;
+  font-size: 2.3rem;
 }
 
 .mainThr-frameOne {
@@ -675,12 +659,12 @@ img {
   margin: 3rem auto;
   padding: 1rem;
   background-color: #6a5247;
-  font-size: 2rem;
 }
 
 .mainFour .mainFour-text-midle > p {
   margin-bottom: 0;
   color: #FFF;
+  font-size: 2.3rem;
 }
 
 .mainFour .mF-coating-list-all {
@@ -757,23 +741,34 @@ img {
   text-align: center;
 }
 
+.mainFive-all .mainFive-table .table > thead > tr {
+  border-width: 0.2rem 0;
+}
+
 .mainFive-all .mainFive-table .table > thead > tr > th {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  border-width: 0 0.2rem;
 }
 
 .mainFive-all .mainFive-table .table .table-info {
   color: #fff;
+  background-color: #59cbefc7;
+}
+
+.mainFive-all .mainFive-table .table > tbody > tr {
+  border-width: 0.2rem 0;
 }
 
 .mainFive-all .mainFive-table .table > tbody > tr .f-th {
   vertical-align: middle;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .mainFive-all .mainFive-table .table > tbody > tr > td {
   font-size: 2rem;
   padding: 0 3rem;
   vertical-align: middle;
+  border-width: 0.2rem;
 }
 
 .mainFive-all .mainFive-table .table > tbody > tr > td:nth-of-type(2) {
@@ -783,8 +778,8 @@ img {
 
 .mainFive-all .mainFive-table .table-arrow-all {
   position: absolute;
-  top: 20%;
-  right: 32%;
+  top: 21%;
+  right: 21%;
 }
 
 .mainFive-all .mainFive-table .table-arrow-all .table-arrow {
@@ -794,7 +789,7 @@ img {
   position: relative;
   font-size: 1.3rem;
   text-align: end;
-  margin-bottom: 2.4rem;
+  margin-bottom: 2rem;
 }
 
 .mainFive-all .mainFive-table .table-arrow-all .table-arrow::after {
@@ -810,7 +805,7 @@ img {
 }
 
 .mainFive-all .mainFive-text-under {
-  padding: 0 10rem;
+  padding: 0 2rem;
 }
 
 .mainFive-all .mainFive-text-under > p {
@@ -851,7 +846,7 @@ img {
 }
 
 .mainFive-all .mainFive-frame-all .mF-frame-contents > p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.3rem;
@@ -866,13 +861,13 @@ img {
 }
 
 .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left {
-  width: 50%;
-  margin: auto;
+  width: 45%;
 }
 
 .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left > p:nth-of-type(1) {
   font-weight: bold;
   letter-spacing: 0.3rem;
+  font-size: 1.5rem;
 }
 
 .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left > p:nth-of-type(1):nth-of-type(2) {
@@ -905,8 +900,7 @@ img {
 }
 
 .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-img-right {
-  width: 43%;
-  margin: auto;
+  width: 45%;
 }
 
 .mainFive-all .mainFive-frame-all .mF-frameSec-all {
@@ -928,10 +922,11 @@ img {
 .mainFive-all .mainFive-frame-all .mF-frameSec-all .frameSec-Square > p {
   margin-bottom: 0;
   color: white;
+  font-size: 1.3rem;
 }
 
 .mainFive-all .mainFive-frame-all .mF-frameSec-all .frameSec-Square > p:nth-of-type(3) {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec {
@@ -941,7 +936,7 @@ img {
 }
 
 .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-left {
-  width: 30%;
+  width: 35%;
   text-align: center;
   margin: auto;
   background-color: #fff;
@@ -952,8 +947,8 @@ img {
 }
 
 .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right {
-  width: 60%;
-  padding: 1rem 5rem;
+  width: 50%;
+  margin: auto;
 }
 
 .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right > h3, .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right p {
@@ -963,11 +958,24 @@ img {
 
 .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-thema {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-thema > p {
+  font-size: 2rem;
 }
 
 .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-textOne {
   margin-bottom: 1rem;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-textOne > p {
+  font-size: 1.3rem;
+}
+
+.mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-textSec > p {
+  font-size: 1.3rem;
 }
 
 .mainSix-frameOne {
@@ -1031,7 +1039,7 @@ img {
 .footer .footer-img-cat {
   width: 18%;
   position: absolute;
-  top: -79%;
+  top: -72%;
   right: 2%;
 }
 

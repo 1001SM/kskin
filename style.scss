@@ -1,14 +1,16 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body {
+	font-family: 'Noto Sans Japanese', sans-serif;
+    background-color: #fbf8ef;
+}
 .bg-kskin {
     background-color:     #CBE9EE;
     padding: 0;
     //効いてない？
 }
 p, h1, h2, h3, h4 {
-    font-family:"Hiragino Sans", "ヒラギノ角ゴシック";
+	font-family: 'Noto Sans Japanese', sans-serif;
     color: #a1978f;
-}
-body {
-    background-color: #fbf8ef;
 }
 //header
 img {
@@ -29,35 +31,16 @@ img {
         }
     }
 }
-/*h2 span {
-	height: 200px;
-	position: absolute;
-	width: 20px;
-	left: 380px;
-	top: 10px;
-    -webkit-text-stroke: 0.1rem #FFF;
-    font-weight: bold;
-	transform-origin: bottom center;
-	}
-  .char1 { transform: rotate(-37deg); }
-  .char2 { transform: rotate(-30deg); }
-  .char3 { transform: rotate(-23deg); }
-  .char4 { transform: rotate(-16deg); }
-  .char5 { transform: rotate(-9deg); }
-  .char6 { transform: rotate(-2deg); }
-  .char7 { transform: rotate(5deg); }
-  .char8 { transform: rotate(12deg); }
-  .char9 { transform: rotate(19deg); }
-  .char10 { transform: rotate(26deg); }
-  .char11 { transform: rotate(33deg); }
-  .char12 { transform: rotate(40deg); }
-*/
 .text-midle {
     text-align: center;
     & > p {
         font-size: 1.5rem;
         font-weight: bold;
-        -webkit-text-stroke: 0.04rem #FFF;
+        //-webkit-text-stroke: 0.04rem #FFF;
+        text-shadow:0.1rem 0.1rem 0 #FFF, -0.1rem -0.1rem 0 #FFF,
+              -0.1rem 0.1rem 0 #FFF, 0.1rem -0.1rem 0 #FFF,
+              0px 0.1rem 0 #FFF,  0 -0.1rem 0 #FFF,
+              -0.1rem 0 0 #FFF, 0.1rem 0 0 #FFF;
     }
 }
 .header-text {
@@ -66,7 +49,8 @@ img {
     .text-main {
         position: absolute;
         top: -25%;
-        left: 28%;
+        left: 26%;
+        width: 50%;
     }
 }
 .header-text-under {
@@ -258,60 +242,62 @@ img {
 }
 .frameSec-contents {
     display: flex;
+    padding: 2rem 0;
     .fSec-contents-left {
-        width: 50%;
+        width: 70%;
         margin: auto;
         .left-title {
             & > h1 {
                 letter-spacing: 0.3rem;
-                font-size: 4.5rem;
+                font-size: 5rem;
                 margin-bottom: 0;
                 text-align: center;
                 & > span {
-                    font-size: 4rem;
+                    font-size: 5rem;
                 }
             }
             & > h3 {
                 letter-spacing: 0.3rem;
                 text-align: center;
+                font-size: 2rem;
             }
             .title-line {
                 border: solid;
-                width : 80%;
+                width : 70%;
                 margin: auto;
+                margin: 1rem auto;
             }
             & > p {
-                width: 90%;
-                padding-left: 3rem;
-                margin-top: 1rem;
+                width: 70%;
                 letter-spacing: 0.3rem;
+                margin: auto;
+                font-size: 1.5rem;
             }
         }
         .left-text-under {
-            margin: 2rem auto 0 2rem;
             letter-spacing: 0.1rem;
+            width: 90%;
+            margin: 4rem 7rem 0;
             & > h2 {
                 -webkit-text-stroke: 0.04rem #FFF;
                 font-weight: bold;
+                font-size: 3rem;
             }
         }
     }
     .fSec-contents-right {
         width: 50%;
         .text-circle {
-            width: 8rem;
-            height: 8rem;
+            width: 9rem;
+            height: 9rem;
             border-radius: 50%;
             border: solid 3px white;
             text-align: center;
             line-height: 8rem;
             &:nth-of-type(1) {
                 margin-left: 20%;
-                margin-bottom: 4rem;
+                margin-bottom: 5rem;
                 box-shadow: 0 0 0.5rem gray inset;
-            }
-            &:nth-of-type(2) {
-                margin-left: 8%;
             }
             &:nth-of-type(3) {
                 margin-left: 50%;
@@ -319,7 +305,7 @@ img {
                 padding: 0.5rem;
             }
             & > p {
-                font-size: 2.5rem;
+                font-size: 3rem;
                 color: white;
                 font-weight: bold;
                 margin-bottom: 0;
@@ -343,33 +329,34 @@ img {
     .frameThr-contents {
         display: flex;
         padding: 3rem 3rem 0;
+        justify-content: center;
         .fThr-contents-left {
             width: 50%;
-            margin: auto;
         }
         .fThr-contents-right {
-            width: 50%;
+            width: 40%;
             padding: 1rem;
             & > p:nth-of-type(1) {
                 letter-spacing: 0.3rem;
-                font-size: 2.1rem;
+                font-size: 2.3rem;
                 font-weight: bold;
             }
             & > p:nth-of-type(2) {
                 letter-spacing: 0.3rem;
+                font-size: 1.3rem;
             }
         }
     }
     .frameThr-contents-under {
         h2 {
-            line-height: 3.5rem;
+            line-height: 3.8rem;
             position: relative;
-            height: 3.55rem;
-            margin: 0rem 11rem 1em;
+            height: 3.8rem;
+            margin: 2rem 13rem 1em;
             text-align: center;
             background: #ebc9b7;
             color: #a1978f;
-            font-size: 1.7rem;
+            font-size: 2.5rem;
             box-shadow: 0rem 0.1rem;
           }
           
@@ -378,7 +365,7 @@ img {
             position: absolute;
             top: 0;
             display: block;
-            height: 3rem;
+            height: 3.8rem;
             content: '';
             border: 1.75rem solid #ebc9b7;
             box-shadow: 0rem 0.1rem;
@@ -404,12 +391,11 @@ img {
 }
 .mainSec-frameThr-under {
     position: relative;
-    //display: flex;
     & > img {
         width: 10%;
         position: absolute;
-        top: -7rem;
-        right: 5rem;
+        top: -9rem;
+        right: 10rem;
         &:nth-of-type(2) {
             width: 25%;
             top: 0rem;
@@ -420,11 +406,11 @@ img {
         text-align: center;
         padding: 1rem;
         background-color: #6a5247;
-        font-size: 2rem;
-        margin: 4rem 0;
+        margin: 6rem 0;
         & > p {
             margin-bottom: 0;
             color: #fff;
+            font-size: 2.3rem;
         }
     }
 }
@@ -575,10 +561,10 @@ img {
         margin: 3rem auto;
         padding: 1rem;
         background-color: #6a5247;
-        font-size: 2rem;
         & > p {
             margin-bottom: 0;
             color: #FFF;
+            font-size: 2.3rem;
         }
     }
     .mF-coating-list-all {
@@ -639,22 +625,28 @@ img {
         position: relative;
         .table {
             text-align: center;
-            & > thead > tr > th {
-                font-size: 2rem;
-            }
+            & > thead > tr {
+                border-width: 0.2rem 0;
+                & > th {
+                    font-size: 1.5rem;
+                    border-width: 0 0.2rem;
+                }
+            } 
             .table-info {
-                //background-color: aqua;
                 color: #fff;
+                background-color: #59cbefc7;
             }
             & > tbody > tr {
+                border-width: 0.2rem 0;
                 .f-th {
                     vertical-align: middle;
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                 }
                 & > td {
                     font-size: 2rem;
                     padding: 0 3rem;
                     vertical-align: middle;
+                    border-width: 0.2rem;
                     &:nth-of-type(2) {
                         font-size: 2rem;
                         padding: 0 2rem;
@@ -664,8 +656,8 @@ img {
     }
     .table-arrow-all {
         position: absolute;
-        top: 20%;
-        right: 32%;
+        top: 21%;
+        right: 21%;
         .table-arrow {
             height: 2.1rem;
             width: 3.5rem;
@@ -673,7 +665,7 @@ img {
             position:  relative;
             font-size: 1.3rem;
             text-align: end;
-            margin-bottom: 2.4rem;
+            margin-bottom: 2rem;
         }
         .table-arrow::after {
             content:  '';
@@ -689,7 +681,7 @@ img {
     }
     }
     .mainFive-text-under {
-        padding: 0 10rem;
+        padding: 0 2rem;
         & > p {
             margin-bottom: 0;
         }
@@ -718,7 +710,7 @@ img {
             padding: 1.5rem 1.5rem 0;
             border-radius: 12px;
             & > p {
-                font-size: 1.8rem;
+                font-size: 2rem;
                 font-weight: bold;
                 text-align: center;
                 letter-spacing: 0.3rem;
@@ -728,11 +720,11 @@ img {
             .mF-frame-box {
                 display: flex;
                 .box-text-left {
-                    width: 50%;
-                    margin: auto;
+                    width: 45%;
                     & > p:nth-of-type(1) {
                         font-weight: bold;
                         letter-spacing: 0.3rem;
+                        font-size: 1.5rem;
                         &:nth-of-type(2) {
                             margin-bottom: 0;
                         }
@@ -759,8 +751,7 @@ img {
                     }
                 }
                 .box-img-right {
-                    width: 43%;
-                    margin: auto;
+                    width: 45%;
                 }
             }
         }
@@ -779,15 +770,16 @@ img {
                 & > p {
                     margin-bottom: 0;
                     color: white;
+                    font-size: 1.3rem;
                     &:nth-of-type(3) {
-                        font-size: 2rem;
+                        font-size: 3rem;
                     }
                 }
             }
             .mF-frameSec {
                 display: flex;
                 .mF-frameSec-left {
-                    width: 30%;
+                    width: 35%;
                     text-align: center;
                     margin: auto;
                     background-color: #fff;
@@ -796,18 +788,30 @@ img {
                     }
                 }
                 .mF-frameSec-right {
-                    width: 60%;
-                    padding: 1rem 5rem;
+                    width: 50%;
+                    margin: auto;
                     & > h3, p {
                         color: #FFF;
                         margin-bottom: 0;
                     }
                     .right-thema {
                         font-size: 1.5rem;
-                        margin-bottom: 1rem;
+                        line-height: 2rem;
+                        margin-bottom: 2rem;
+                        & > p {
+                            font-size: 2rem;
+                        }
                     }
                     .right-textOne {
                         margin-bottom: 1rem;
+                        & > p {
+                            font-size: 1.3rem;
+                        }
+                    }
+                    .right-textSec {
+                        & > p {
+                            font-size: 1.3rem;
+                        }
                     }
                 }
             }
@@ -864,7 +868,7 @@ img {
     .footer-img-cat{
         width: 18%;
         position: absolute;
-        top: -79%;
+        top: -72%;
         right: 2%;
     }
     .footer-all {
