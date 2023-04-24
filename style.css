@@ -1324,10 +1324,15 @@ img {
   .mainSec-all.bg-kskin {
     padding: 5rem 2rem 3rem;
   }
-  .frameOne-contents .fOne-contents-left > p {
-    font-size: 1rem;
+  .frameOne-contents .fOne-contents-left > h1 {
+    letter-spacing: 0;
+    font-size: 2rem;
     line-height: normal;
-    letter-spacing: 0.2rem;
+  }
+  .frameOne-contents .fOne-contents-left > p {
+    letter-spacing: 0;
+    font-size: 1.1rem;
+    line-height: normal;
   }
   .mainSec-frameSec {
     padding: 0;
@@ -1339,7 +1344,7 @@ img {
     font-size: 1.5rem;
   }
   .frameSec-contents .fSec-contents-left .left-title > p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .frameSec-contents .fSec-contents-left .left-text-under {
     margin: 4rem 5rem 0;
@@ -1403,8 +1408,8 @@ img {
   .mainFour .mainFour-comment > p {
     font-size: 1.8rem;
   }
-  .mainFour .mainFour-text-midle {
-    font-size: 1.5rem;
+  .mainFour .mainFour-text-midle > p {
+    font-size: 1.8rem;
   }
   .mainFour .coating-text > p {
     font-size: 0.8rem;
@@ -1419,23 +1424,23 @@ img {
     padding: 0 3rem;
   }
   .mainFive-all .mainFive-table .table-arrow-all {
-    top: 21%;
-    right: 25%;
+    top: 20%;
+    right: 27%;
   }
   .mainFive-all .mainFive-table .table-arrow-all .table-arrow {
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.1rem;
   }
   .mainFive-all .mainFive-table .table > thead > tr > th {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
   .mainFive-all .mainFive-table .table > tbody > tr .f-th {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
   .mainFive-all .mainFive-table .table > tbody > tr > td {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .mainFive-all .mainFive-table .table > tbody > tr > td:nth-of-type(2) {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .mainFive-all .mainFive-text-under {
     padding: 0 3rem;
@@ -1448,7 +1453,7 @@ img {
     right: 1%;
   }
   .mainFive-all .mainFive-frame-all .mF-frame-contents > p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left > p:nth-of-type(1) {
     font-size: 0.8rem;
@@ -1464,6 +1469,15 @@ img {
   }
   .mainFive-all .mainFive-frame-all .mF-frameSec-all .frameSec-Square > p:nth-of-type(3) {
     font-size: 2rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-left > img {
+    width: 80%;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-textOne > p {
+    font-size: 1.1rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-textSec > p {
+    font-size: 1.1rem;
   }
   .mainSix-frameOne {
     padding: 2rem 4rem 10rem;

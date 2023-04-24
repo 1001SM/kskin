@@ -1224,10 +1224,19 @@ img {
     .mainSec-all.bg-kskin {
         padding: 5rem 2rem 3rem;
     }
-    .frameOne-contents .fOne-contents-left > p {
-        font-size: 1rem;
-        line-height: normal;
-        letter-spacing: 0.2rem;
+    .frameOne-contents {
+        .fOne-contents-left {
+            & > h1 {
+                letter-spacing: 0;
+                font-size: 2rem;
+                line-height: normal;
+            }
+            & > p {
+                letter-spacing: 0;
+                font-size: 1.1rem;
+                line-height: normal;
+            }
+        }
     }
     .mainSec-frameSec {
         padding: 0;
@@ -1242,7 +1251,7 @@ img {
                     font-size: 1.5rem;
                 }
                 & > p {
-                    font-size: 1.3rem;
+                    font-size: 1.2rem;
                 }
             } 
             .left-text-under {
@@ -1341,7 +1350,9 @@ img {
             }
         }
         .mainFour-text-midle {
-            font-size: 1.5rem;
+            & > p {
+                font-size: 1.8rem;
+            }
         }
         .coating-text {
             & > p {
@@ -1365,24 +1376,24 @@ img {
         .mainFive-table {
             padding: 0 3rem;
             .table-arrow-all {
-                top: 21%;
-                right: 25%;
+                top: 20%;
+                right: 27%;
                 .table-arrow {
-                    margin-bottom: 1.7rem;
+                    margin-bottom: 1.1rem;
                 }
             }
             .table {
                 & > thead > tr > th {
-                    font-size: 1.8rem;
+                    font-size: 1.3rem;
                 }
                 & > tbody > tr {
                     .f-th {
-                        font-size: 1.8rem;
+                        font-size: 1.3rem;
                     }
                     & > td {
-                        font-size: 2rem;
+                        font-size: 1.5rem;
                         &:nth-of-type(2) {
-                            font-size: 1.5rem;                        }
+                            font-size: 2rem;                        }
                     }
                 }
             }
@@ -1398,7 +1409,7 @@ img {
             }
             .mF-frame-contents {
                 & > p {
-                    font-size: 1.5rem;
+                    font-size: 1.4rem;
                 }
                 .mF-frame-box {
                     .box-text-left {
@@ -1420,6 +1431,23 @@ img {
                         font-size: 0.8rem;
                         &:nth-of-type(3) {
                             font-size: 2rem;
+                        }
+                    }
+                }
+                .mF-frameSec {
+                    .mF-frameSec-left > img {
+                        width: 80%;
+                    }
+                    .mF-frameSec-right {
+                        .right-textOne {
+                            & > p {
+                                font-size: 1.1rem;
+                            }
+                        }
+                        .right-textSec {
+                            & > p {
+                                font-size: 1.1rem;
+                            }
                         }
                     }
                 }
