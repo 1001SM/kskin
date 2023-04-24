@@ -419,13 +419,13 @@ img {
 //mainThr-frameOne
 .mainThr-frameOne {
     background-color: #6a5247;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
     .frameOne-frame {
         border: solid 0.5rem white;
         padding: 0.5rem;
         .frameOne-frameSmall {
             border: solid 0.2rem white;
-            padding: 1rem 3rem;
+            padding: 1rem 1rem;
             text-align: center;
             & > p {
                 font-size: 2rem;
@@ -823,13 +823,12 @@ img {
 //mainSix
 .mainSix-frameOne {
     background-color: #6a5247;
-    padding: 2rem 4rem 12rem;
+    padding: 2rem 2rem 12rem;
     .frameOne-frame {
         border: solid 0.5rem white;
         padding: 0.5rem;
         .frameOne-frameSmall {
             border: solid 0.2rem white;
-            padding: 1rem 3rem;
             text-align: center;
             & > p {
                 font-size: 2rem;
@@ -1103,20 +1102,15 @@ img {
         }
     }
     .mainFive-table {
-        padding: 0 5rem;
-    .table-arrow-all {
-        top: 20%;
-        right: 26%;
-        .table-arrow {
-            margin-bottom: 1.35rem;
+        .table-arrow-all {
+            top: 20%;
+            right: 26%;
+            .table-arrow {
+                margin-bottom: 1.35rem;
+            }
         }
     }
-    }
-    .mainFive-text-under {
-        padding: 0 5rem;
-    }
     .mainFive-frame-all {
-        padding: 2rem 5rem;
         .mF-frame-img {
             top: -10%;
             right: 3%;
@@ -1374,7 +1368,6 @@ img {
             }
         }
         .mainFive-table {
-            padding: 0 3rem;
             .table-arrow-all {
                 top: 20%;
                 right: 27%;
@@ -1398,11 +1391,7 @@ img {
                 }
             }
         }
-        .mainFive-text-under {
-            padding: 0 3rem;
-        }
         .mainFive-frame-all {
-            padding: 2rem 3rem;
             .mF-frame-img {
                 top: -8%;
                 right: 1%;
@@ -1456,7 +1445,7 @@ img {
     }
     //mainSix
     .mainSix-frameOne {
-        padding: 2rem 4rem 10rem;
+        padding: 2rem 2rem 10rem;
         .frameOne-frame {
             .frameOne-frameSmall {
                 & > p {
@@ -1530,10 +1519,14 @@ img {
     }
     .img-all {
         & > img:nth-of-type(1) {
-            width: 30%;
+            height: 3rem;
+            width: 20%;
+        }
+        & > span {
+            margin: 0rem 2rem;
         }
         & > img:nth-of-type(2) {
-            width: 25%;
+            width: 20%;
         }
     }
     .main-img {
@@ -1557,14 +1550,14 @@ img {
         }
         .img-cat1 {
             width: 20%;
-            left: -2rem;
+            left: 95%;
             top: -1rem;
         }
     }
     .main-all {
-        height: 23rem;
+        height: 20rem;
         & > svg {
-            margin-top: 20%;
+            margin-top: 15%;
         }
     }
     .mainOne-contents {
@@ -1575,15 +1568,12 @@ img {
             }
             .mainOnetext-all {
                 .text-square {
-                    margin: 1rem 3rem 0 0rem;
                     & > p {
-                        font-size: 2rem;
+                        font-size: 1.5rem;
+                        padding: 0.5rem 1rem;
                         & > sup {
                             font-size: 0.7rem;
                         }                        color: white;
-                    }
-                    &:nth-of-type(3) {
-                        margin: 1rem 2rem 0rem 0rem;
                     }
                 }
                 .kome {
@@ -1592,16 +1582,19 @@ img {
             }
         }
         .mainOne-right {
-            width: 40%;
+            width: 50%;
+            top: 10%;
+            right: -5%;
             & > img {
-                width: 70%;
+                width: 85%;
             }
         }
     }
     .mainSec-all.bg-kskin {
-        padding: 7rem 3rem 3rem;
+        padding: 10rem 2rem 3rem;
     }
     .frameOne-contents {
+        padding: 1rem;
         .fOne-contents-left {
             & > h1 {
                 font-size: 1.5rem;
@@ -1624,50 +1617,50 @@ img {
     }
     .frameSec-contents {
         display: flex;
+        padding: 0;
         .fSec-contents-left {
             .left-title {
                 & > h1 {
-                    font-size: 2.5rem;
+                    font-size: 3.5rem;
                     & > span {
-                        font-size: 2rem;
+                        font-size: 3rem;
                     }
                 }
                 & > h3 {
-                    font-size: 1rem;                    text-align: center;
+                    font-size: 1.3rem;                    text-align: center;
                 }
                 & > p {
-                    font-size: 0.7rem;
-                    padding-left: 2rem;                    padding-left: 3rem;
+                    font-size: 1rem;
                 }
             }
             .left-text-under {
-                margin-top: 0;                margin-top: 2rem;
+                margin: 2rem 3rem 0;               margin-top: 2rem;
                 & > h2 {
-                    font-size: 1rem;                }
+                    font-size: 1.5rem;                }
             }
         }
         .fSec-contents-right {
             width: 50%;
             .text-circle {
-                width: 5rem;
-                height: 5rem;
+                width: 6rem;
+                height: 6rem;
                 line-height: 0rem;
                 &:nth-of-type(3) {
                     line-height: 1rem;
                     padding: 1.2rem 0;
                 }
                 & > p {
-                    font-size: 1.5rem;
-                    padding: 2.5rem 0;                
+                    font-size: 2rem;
+                    padding: 3rem 0;                
                 }
             }
             .text-circle.th {
                 & > p:nth-of-type(1) {
                     padding: 0;
-                    font-size: 0.5rem;                
+                    font-size: 0.7rem;                
                 }
                 & > p:nth-of-type(2) {
-                    font-size: 0.8rem;
+                    font-size: 1rem;
                     padding: 0;                
                 }
             }
@@ -1678,13 +1671,9 @@ img {
     //mainSec-frameThr
     .mainSec-frameThr-all {
         .frameThr-contents {
-            padding: 1rem 3rem 0;
-            .fThr-contents-left {
-                margin: auto;            
-            }
             .fThr-contents-right {
                 & > p:nth-of-type(1) {
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                 }
                 & > p:nth-of-type(2) {
                     letter-spacing: 0.1rem;
@@ -1694,10 +1683,11 @@ img {
         }
         .frameThr-contents-under {
             h2 {
-                margin: 0rem 7rem 1em;                position: relative;
+                margin: 0rem 7rem 1em;                
+                position: relative;
             }
             h2 span {
-                font-size: 1.2rem;
+                font-size: 1.3rem;
             }
         }    
     }
@@ -1722,13 +1712,13 @@ img {
         .frameOne-frame {
             .frameOne-frameSmall {
                 & > p {
-                    font-size: 0.8rem;
+                    font-size: 1.1rem;
                     margin-top: 0rem;
                     & > span:nth-of-type(1) {
                         font-size: 1.5rem;
                     }
                     & > span:nth-of-type(2) {
-                        font-size: 1.5rem;
+                        font-size: 2rem;
                     }
                 }
                 & > p:nth-of-type(2) {
@@ -1760,7 +1750,8 @@ img {
             .frameSec-Thema {
                 margin: 0rem 0rem 5rem;
                 & > h1 {
-                    font-size: 2rem;
+                    font-size: 2.5rem;
+                    letter-spacing: 0.5rem;
                 }
             }
             .question {
@@ -1799,22 +1790,19 @@ img {
     .mainFour-all {
         padding-bottom: 5rem;
         & > svg {
-            top: -11rem;
+            top: -12rem;
         }
     }
     .mainFour {
-        padding: 0 3rem;
+        padding: 0 2rem;
         .mainFour-comment {
             & > p {
-                font-size: 1.3rem;
+                font-size: 1.4rem;
             }
         }
         .mainFour-text-midle {
-            font-size: 1.2rem;
-        }
-        .coating-text {
             & > p {
-                font-size: 0.9rem;
+                font-size: 1.3rem;
             }
         }
     }
@@ -1830,17 +1818,16 @@ img {
             }
         }
         .mainFive-table {
-            padding: 0rem 1rem;
             .table {
                 & > thead > tr > th {
-                    font-size: 1.5rem;
+                    font-size: 1.3rem;
                 }
                 & > tbody > tr {
                     .f-th {
-                        font-size: 1.5rem;
+                        font-size: 1rem;
                     }
                     & > td {
-                        font-size: 1.5rem;
+                        font-size: 1.3rem;
                         padding: 0 2rem;
                         &:nth-of-type(2) {
                             font-size: 1.5rem;
@@ -1850,10 +1837,10 @@ img {
                 }
             }
         .table-arrow-all {
-            top: 21%;
-            right: 23%;
+            top: 22%;
+            right: 28%;
             .table-arrow {
-                margin-bottom: 1.6rem;
+                margin-bottom: 1rem;
                 width: 2.5rem;
                 font-size: 1rem;
                 height: 1.7rem;
@@ -1864,22 +1851,18 @@ img {
             }
         }
         }
-        .mainFive-text-under {
-            padding: 0 1rem;
-        }
         .mainFive-frame-all {
-            padding: 2rem 1rem;
             .mF-frame-img {
-                top: -5%;
-                right: -2%;
+                top: -6%;
+                right: 0%;
             }
             .mF-frame-contents {
                 & > p {
-                    font-size: 1.3rem;
+                    font-size: 1rem; //要相談
                 }
                 .mF-frame-box {
                     .box-text-left {
-                        margin: 1.5rem auto 0;
+                        width: 50%;
                         & > p:nth-of-type(1){
                             font-size: 0.7rem;
                         }
@@ -1888,6 +1871,19 @@ img {
                         }
                         .table {
                             margin-top: 1rem;
+                            margin-bottom: 0;
+                            & > thead > tr {
+                                font-size: 0.8rem;
+                                & > th {
+                                    font-size: 0.8rem;
+                                }
+                            }
+                            & > tbody > tr {
+                                font-size: 0.8rem;
+                                & > th, td {
+                                    font-size: 0.8rem;
+                                }
+                            }
                         }
                     }
                 }
@@ -1899,6 +1895,7 @@ img {
                 margin: 2rem 0;
                 padding: 1rem 0;
                 .frameSec-Square {
+                    width: 14%;
                     & > p {
                         font-size: 0.5rem;
                         &:nth-of-type(3) {
@@ -1911,31 +1908,55 @@ img {
                         width: 35%;
                     }
                     .mF-frameSec-right {
-                        padding: 1rem 3rem;
                         .right-thema {
-                            font-size: 1.3rem;
+                            margin-bottom: 1rem;
+                            & > p {
+                                font-size: 1.3rem;
+                            }
                         }
                         .right-textOne {
-                            font-size: 0.8rem;
+                            & > p {
+                                font-size: 0.8rem;
+                            }
+                        }
+                        .right-textSec {
+                            & > p {
+                                font-size: 0.8rem;
+                            }
                         }
                     }
                 }
             }
         }
+        .mainFive-text-under {
+            & > p {
+                font-size: 0.5rem;
+            }
+        }
+        .text-under-list {
+            & > p {
+                font-size: 0.5rem;
+            }
+        }
+        .text-under-list {
+            & > p {
+                font-size: 0.5rem;
+            }
+        }
     }  
     //mainSix
     .mainSix-frameOne {
-        padding: 2rem 4rem 6rem;
+        padding: 2rem 2rem 6rem;
         .frameOne-frame {
             .frameOne-frameSmall {
                 & > p {
-                    font-size: 0.8rem;
+                    font-size: 1.1rem;
                     margin-top: 0rem;
                     & > span:nth-of-type(1) {
                         font-size: 1.5rem;
                     }
                     & > span:nth-of-type(2) {
-                        font-size: 1.5rem;
+                        font-size: 2rem;
                     }
                 }
                 & > p:nth-of-type(2) {
@@ -1969,7 +1990,7 @@ img {
         }
         .footer-img-cat{
             top: -50%;
-            right: 6%;
+            right: 2%;
         }
         .footer-all {
             .footer-text {
@@ -2000,6 +2021,550 @@ img {
                     & > p {
                         font-size: 0.5rem;
                     }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .header-text {
+        padding-bottom: 2rem;
+        .text-main {
+            top: -16%;
+            left: 20%;
+            width: 60%;
+        }
+    }
+    
+    .img-all {
+        & > img:nth-of-type(1) {
+            height: 2rem;        }
+        & > span {
+            margin: 0rem 1rem;
+            font-size: 3rem;
+        }
+        & > img:nth-of-type(2) {
+            height: 3rem;
+        }
+    }
+    .main-img {
+        top: -25%;
+    }
+    .text-midle > p {
+        font-size: 0.5rem;
+    }
+    .header-text-under {
+        .text-kakko {
+            .text-inside {
+                & > h3 {
+                    margin-bottom: 0.5rem;
+                    font-size: 1rem;
+                }
+                & > h4 {
+                    font-size: 0.3rem;
+                }
+            }
+        }
+        .img-cat1 {
+            width: 20%;
+            left: 95%;
+            top: -1rem;
+        }
+    }
+    .main-all {
+        height: 12rem;
+        & > svg {
+            margin-top: 7%;
+        }
+    }
+    .mainOne-contents {
+        .mainOne-left {
+            & > h3 {
+                font-size: 0.8rem;
+                padding-bottom: 1rem;
+            }
+            .mainOnetext-all {
+                .text-square {
+                    & > p {
+                        font-size: 0.8rem;
+                        margin-bottom: 0.5rem;
+                        & > sup {
+                            font-size: 0.3rem;
+                            top: -0.9em;
+                        } 
+                    }
+                }
+                .kome {
+                    font-size: 0.3rem;
+                }
+            }
+        }
+        .mainOne-right {
+            & > img {
+                width: 90%;
+            }
+        }
+    }
+    .mainSec-all.bg-kskin {
+        padding: 7rem 2rem 3rem;
+    }
+    .frameOne-contents {
+        display: block;
+        .fOne-contents-left {
+            width: 90%;
+            text-align: center;
+            margin: auto;
+            padding: 0;
+            & > h1 {
+                font-size: 1.5rem;
+            }
+            & > p {
+                font-size: 0.8rem;
+                padding: 1rem 0;
+            }
+        }
+        .fOne-contents-right {
+            width: 70%;
+        }
+    }
+    .fOne-img {
+        width: 18%;
+        top: -4rem;
+    }
+    //mainSec frameSec
+    .frameSec-contents {
+        display: block;
+        .fSec-contents-left {
+            width: 100%;
+            .left-title {
+                & > h1 {
+                    font-size: 3rem;
+                    & > span {
+                        font-size: 3rem;
+                    }
+                }
+                & > h3 {
+                    font-size: 1rem;                    text-align: center;
+                }
+                & > p {
+                    font-size: 0.8rem;
+                }
+            }
+            .left-text-under {
+                margin: 2rem;
+                & > h2 {
+                    font-size: 1.3rem;                
+                }
+            }
+        }
+        .fSec-contents-right {
+            width: 100%;
+            .text-circle {
+                margin: 1rem auto;
+                &:nth-of-type(1) {
+                    margin: 1rem auto;
+                }
+                &:nth-of-type(3) {
+                    margin: 1rem auto;
+                }
+                /*&:nth-of-type(3) {
+                    line-height: 1rem;
+                    padding: 1.2rem 0;
+                }
+                & > p {
+                    font-size: 2rem;
+                    padding: 3rem 0;                
+                }*/
+            }
+            .text-circle.th {
+                & > p:nth-of-type(1) {
+                    padding: 0;
+                    font-size: 0.7rem;                
+                }
+                & > p:nth-of-type(2) {
+                    font-size: 1rem;
+                    padding: 0;                
+                }
+            }
+            
+        }
+    }
+    
+    //mainSec-frameThr
+    .mainSec-frameThr-all {
+        .frameThr-contents {
+            display: block;
+            .fThr-contents-left {
+                width: 100%;
+            }
+            .fThr-contents-right {
+                width: 100%;
+                /*& > p:nth-of-type(1) {
+                    font-size: 1.2rem;
+                }
+                & > p:nth-of-type(2) {
+                    letter-spacing: 0.1rem;
+                    font-size: 0.8rem;
+                }*/
+            }
+        }
+        .frameThr-contents-under {
+            h2 {
+                margin: 0rem 3rem 1em;               
+                position: relative;
+            }
+            h2 span {
+                font-size: 0.7rem;
+            }
+        }    
+    }
+    .mainSec-frameThr-under {
+        & > img {
+            width: 15%;
+            top: -80%;
+            &:nth-of-type(2) {
+                width: 25%;
+                top: 1rem;
+                right: -2rem;
+            }
+        }
+        .fThr-under-f {
+            margin: 3rem 0;
+            & > p {
+                font-size: 0.9rem;            
+            }
+        }
+    }
+    //mainThr-frameOne
+    .mainThr-frameOne {
+        .frameOne-frame {
+            .frameOne-frameSmall {
+                & > p {
+                    font-size: 1.1rem;
+                    margin-top: 0rem;
+                    & > span:nth-of-type(1) {
+                        font-size: 1.5rem;
+                    }
+                    & > span:nth-of-type(2) {
+                        font-size: 2rem;
+                    }
+                }
+                & > p:nth-of-type(2) {
+                    font-size: 0.8rem;
+                    margin-top: 1rem;
+                }
+                .img-all {
+                    margin: 1rem auto;
+                    & > img:nth-of-type(1) {
+                        width: 20%;
+                        height: 2rem;
+                    }
+                    & > img:nth-of-type(2) {
+                        width: 20%;
+                        height: 3rem;
+                    }
+                    & > span {
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    //mainThr-frameSec
+    .mainThr-frameSec {
+        background-size: contain;
+        .mainThr-frameSec-all {
+            .frameSec-Thema {
+                margin: 0rem 0rem 5rem;
+                & > h1 {
+                    font-size: 2.5rem;
+                    letter-spacing: 0.5rem;
+                }
+            }
+            .question {
+                top: 22%;
+                left: 35%;
+                & > p {
+                    font-size: 3rem;
+                    &:nth-of-type(1) {
+                        margin: 0px 5rem 0 0;
+                    }
+                }
+            }
+            .frame-img {
+                padding-top: 5rem;
+            }
+            .frameSec-list-all {
+                .frameSec-list-left {
+                    .left-under {
+                        & > p {
+                            font-size: 0.7rem;
+                        }
+                        
+                    }
+                }
+                .frameSec-list-right {
+                    .right-under {
+                        & > p {
+                            font-size: 0.7rem;
+                            width: 62%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mainFour-all {
+        padding-bottom: 3rem;
+        & > svg {
+            top: -12rem;
+        }
+    }
+    .mainFour {
+        padding: 0 2rem;
+        .mainFour-comment {
+            & > p {
+                font-size: 0.7rem;
+            }
+        }
+        .mainFour-text-midle {
+            margin: 1rem auto;
+            & > p {
+                font-size: 0.5rem;
+            }
+        }
+        .mF-coating-list-all {
+            width: 90%;
+            margin: 2rem auto 2rem;
+        }
+        .coating-text {
+            & > p {
+                font-size: 0.5rem;
+            }
+        }
+    }
+    //mainFive 
+    .mainFive-all {
+        & > svg {
+            top: -5rem;
+        }
+        .mainFive-thema {
+            background-size: contain;
+            & > p {
+                font-size: 0.8rem;
+                padding: 2.5rem;
+                margin-bottom: 0;
+            }
+        }
+        .mainFive-table {
+            padding: 0;
+            .table {
+                & > thead > tr > th {
+                    font-size: 1rem;
+                }
+                & > tbody > tr {
+                    .f-th {
+                        font-size: 0.5rem;
+                    }
+                    & > td {
+                        font-size: 0.5rem;
+                        padding: 0rem;
+                        &:nth-of-type(2) {
+                            font-size: 1rem;
+                            padding: 0rem;
+                        }
+                    }
+                }
+            }
+            .table-arrow-all {
+                top: 22%;
+                right: 28%;
+                .table-arrow {
+                    margin-bottom: 1rem;
+                    width: 2.5rem;
+                    font-size: 1rem;
+                    height: 1.7rem;
+                }
+                .table-arrow::after {
+                    border-width: 1.2rem 0 1.5rem 1.5rem;
+                    top: -25%;
+                }
+            }
+            .mainFive-text-under {
+                padding: 1rem;
+            }
+        }
+        .mainFive-frame-all {
+            .mF-frame-img {
+                top: -1%;
+                right: 6%;
+            }
+            .mF-frame-contents {
+                & > p {
+                    font-size: 0.8rem; //要相談
+                }
+                .mF-frame-box {
+                    display: block;
+                    .box-text-left {
+                        width: 100%;
+                        margin: auto;
+                        & > p:nth-of-type(1){
+                            font-size: 0.5rem;
+                        }
+                        & > p:nth-of-type(2){
+                            font-size: 0.5rem;
+                        }
+                        /*.table {
+                            margin-top: 1rem;
+                            margin-bottom: 0;
+                            & > thead > tr {
+                                font-size: 0.8rem;
+                                & > th {
+                                    font-size: 0.8rem;
+                                }
+                            }
+                            & > tbody > tr {
+                                font-size: 0.8rem;
+                                & > th, td {
+                                    font-size: 0.8rem;
+                                }
+                            }
+                        }*/
+                    }
+                    .box-img-right {
+                        width: 100%;
+                    }
+                }
+            }
+            .mF-frameSec-all {
+                margin: 2rem 0;
+                padding: 1rem 0;
+                .frameSec-Square {
+                    width: 25%;
+                    & > p {
+                        font-size: 0.5rem;
+                        &:nth-of-type(3) {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                .mF-frameSec {
+                    display: block;
+                    .mF-frameSec-left {
+                        width: 35%;
+                    }
+                    .mF-frameSec-right {
+                        .right-thema {
+                            margin-bottom: 1rem;
+                            & > p {
+                                font-size: 1.3rem;
+                            }
+                        }
+                        .right-textOne {
+                            & > p {
+                                font-size: 0.8rem;
+                            }
+                        }
+                        .right-textSec {
+                            & > p {
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .mainFive-text-under {
+            & > p {
+                font-size: 0.5rem;
+            }
+        }
+        .text-under-list {
+            & > p {
+                font-size: 0.5rem;
+            }
+        }
+        .text-under-list {
+            & > p {
+                font-size: 0.5rem;
+            }
+        }
+    }  
+    //mainSix
+    .mainSix-frameOne {
+        padding: 2rem 2rem 6rem;
+        .frameOne-frame {
+            .frameOne-frameSmall {
+                & > p {
+                    font-size: 1.1rem;
+                    margin-top: 0rem;
+                    & > span:nth-of-type(1) {
+                        font-size: 1.5rem;
+                    }
+                    & > span:nth-of-type(2) {
+                        font-size: 2rem;
+                    }
+                }
+                & > p:nth-of-type(2) {
+                    font-size: 0.8rem;
+                    margin-top: 1rem;
+                }
+                .img-all {
+                    margin: 1rem auto;
+                    & > img:nth-of-type(1) {
+                        width: 20%;
+                        height: 2rem;
+                    }
+                    & > img:nth-of-type(2) {
+                        width: 20%;
+                        height: 3rem;
+                    }
+                    & > span {
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+    }
+    //footer
+    .footer {
+        & > svg {
+            top: -42%;
+        }
+        .footer-img-foot {
+            top: -22%;
+        }
+        .footer-img-cat{
+            top: -50%;
+            right: 2%;
+        }
+        .footer-all {
+            .footer-text {
+                padding-top: 2rem;
+                & > h1 {
+                    font-size: 1.3rem;
+                    & > span {
+                        font-size: 1.5rem;
+                    }
+                }
+                & > p {
+                    font-size: 0.5rem;
+                }
+                .text-midle {
+                    .triangle{
+                        border-top: 1.2rem solid transparent;
+                        border-left: 1.3rem solid #fff;
+                        border-bottom: 1.8rem solid transparent;
+                      }
+                }
+                .footer-number {
+                    font-size: 3rem;
+                }
+            }
+            .company-name {
+                .company-name-text {
+                    padding-left: 15%;
                 }
             }
         }

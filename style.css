@@ -480,7 +480,7 @@ img {
 
 .mainThr-frameOne {
   background-color: #6a5247;
-  padding: 1rem 4rem;
+  padding: 1rem 2rem;
 }
 
 .mainThr-frameOne .frameOne-frame {
@@ -490,7 +490,7 @@ img {
 
 .mainThr-frameOne .frameOne-frame .frameOne-frameSmall {
   border: solid 0.2rem white;
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
   text-align: center;
 }
 
@@ -982,7 +982,7 @@ img {
 
 .mainSix-frameOne {
   background-color: #6a5247;
-  padding: 2rem 4rem 12rem;
+  padding: 2rem 2rem 12rem;
 }
 
 .mainSix-frameOne .frameOne-frame {
@@ -992,7 +992,6 @@ img {
 
 .mainSix-frameOne .frameOne-frame .frameOne-frameSmall {
   border: solid 0.2rem white;
-  padding: 1rem 3rem;
   text-align: center;
 }
 
@@ -1236,21 +1235,12 @@ img {
   .mainFive-all .mainFive-thema > p {
     font-size: 2rem;
   }
-  .mainFive-all .mainFive-table {
-    padding: 0 5rem;
-  }
   .mainFive-all .mainFive-table .table-arrow-all {
     top: 20%;
     right: 26%;
   }
   .mainFive-all .mainFive-table .table-arrow-all .table-arrow {
     margin-bottom: 1.35rem;
-  }
-  .mainFive-all .mainFive-text-under {
-    padding: 0 5rem;
-  }
-  .mainFive-all .mainFive-frame-all {
-    padding: 2rem 5rem;
   }
   .mainFive-all .mainFive-frame-all .mF-frame-img {
     top: -10%;
@@ -1420,9 +1410,6 @@ img {
   .mainFive-all .mainFive-thema > p {
     font-size: 1.8rem;
   }
-  .mainFive-all .mainFive-table {
-    padding: 0 3rem;
-  }
   .mainFive-all .mainFive-table .table-arrow-all {
     top: 20%;
     right: 27%;
@@ -1441,12 +1428,6 @@ img {
   }
   .mainFive-all .mainFive-table .table > tbody > tr > td:nth-of-type(2) {
     font-size: 2rem;
-  }
-  .mainFive-all .mainFive-text-under {
-    padding: 0 3rem;
-  }
-  .mainFive-all .mainFive-frame-all {
-    padding: 2rem 3rem;
   }
   .mainFive-all .mainFive-frame-all .mF-frame-img {
     top: -8%;
@@ -1480,7 +1461,7 @@ img {
     font-size: 1.1rem;
   }
   .mainSix-frameOne {
-    padding: 2rem 4rem 10rem;
+    padding: 2rem 2rem 10rem;
   }
   .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p {
     font-size: 1.3rem;
@@ -1535,10 +1516,14 @@ img {
     top: -20%;
   }
   .img-all > img:nth-of-type(1) {
-    width: 30%;
+    height: 3rem;
+    width: 20%;
+  }
+  .img-all > span {
+    margin: 0rem 2rem;
   }
   .img-all > img:nth-of-type(2) {
-    width: 25%;
+    width: 20%;
   }
   .main-img {
     top: -10%;
@@ -1558,43 +1543,43 @@ img {
   }
   .header-text-under .img-cat1 {
     width: 20%;
-    left: -2rem;
+    left: 95%;
     top: -1rem;
   }
   .main-all {
-    height: 23rem;
+    height: 20rem;
   }
   .main-all > svg {
-    margin-top: 20%;
+    margin-top: 15%;
   }
   .mainOne-contents .mainOne-left > h3 {
     font-size: 1.5rem;
     letter-spacing: 0rem;
   }
-  .mainOne-contents .mainOne-left .mainOnetext-all .text-square {
-    margin: 1rem 3rem 0 0rem;
-  }
   .mainOne-contents .mainOne-left .mainOnetext-all .text-square > p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
     color: white;
   }
   .mainOne-contents .mainOne-left .mainOnetext-all .text-square > p > sup {
     font-size: 0.7rem;
   }
-  .mainOne-contents .mainOne-left .mainOnetext-all .text-square:nth-of-type(3) {
-    margin: 1rem 2rem 0rem 0rem;
-  }
   .mainOne-contents .mainOne-left .mainOnetext-all .kome {
     margin-left: 0rem;
   }
   .mainOne-contents .mainOne-right {
-    width: 40%;
+    width: 50%;
+    top: 10%;
+    right: -5%;
   }
   .mainOne-contents .mainOne-right > img {
-    width: 70%;
+    width: 85%;
   }
   .mainSec-all.bg-kskin {
-    padding: 7rem 3rem 3rem;
+    padding: 10rem 2rem 3rem;
+  }
+  .frameOne-contents {
+    padding: 1rem;
   }
   .frameOne-contents .fOne-contents-left > h1 {
     font-size: 1.5rem;
@@ -1615,35 +1600,34 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding: 0;
   }
   .frameSec-contents .fSec-contents-left .left-title > h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   .frameSec-contents .fSec-contents-left .left-title > h1 > span {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .frameSec-contents .fSec-contents-left .left-title > h3 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
   }
   .frameSec-contents .fSec-contents-left .left-title > p {
-    font-size: 0.7rem;
-    padding-left: 2rem;
-    padding-left: 3rem;
+    font-size: 1rem;
   }
   .frameSec-contents .fSec-contents-left .left-text-under {
-    margin-top: 0;
+    margin: 2rem 3rem 0;
     margin-top: 2rem;
   }
   .frameSec-contents .fSec-contents-left .left-text-under > h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .frameSec-contents .fSec-contents-right {
     width: 50%;
   }
   .frameSec-contents .fSec-contents-right .text-circle {
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     line-height: 0rem;
   }
   .frameSec-contents .fSec-contents-right .text-circle:nth-of-type(3) {
@@ -1651,25 +1635,19 @@ img {
     padding: 1.2rem 0;
   }
   .frameSec-contents .fSec-contents-right .text-circle > p {
-    font-size: 1.5rem;
-    padding: 2.5rem 0;
+    font-size: 2rem;
+    padding: 3rem 0;
   }
   .frameSec-contents .fSec-contents-right .text-circle.th > p:nth-of-type(1) {
     padding: 0;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   .frameSec-contents .fSec-contents-right .text-circle.th > p:nth-of-type(2) {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 0;
   }
-  .mainSec-frameThr-all .frameThr-contents {
-    padding: 1rem 3rem 0;
-  }
-  .mainSec-frameThr-all .frameThr-contents .fThr-contents-left {
-    margin: auto;
-  }
   .mainSec-frameThr-all .frameThr-contents .fThr-contents-right > p:nth-of-type(1) {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .mainSec-frameThr-all .frameThr-contents .fThr-contents-right > p:nth-of-type(2) {
     letter-spacing: 0.1rem;
@@ -1680,7 +1658,7 @@ img {
     position: relative;
   }
   .mainSec-frameThr-all .frameThr-contents-under h2 span {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .mainSec-frameThr-under > img {
     top: -5rem;
@@ -1697,14 +1675,14 @@ img {
     font-size: 1.5rem;
   }
   .mainThr-frameOne .frameOne-frame .frameOne-frameSmall > p {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     margin-top: 0rem;
   }
   .mainThr-frameOne .frameOne-frame .frameOne-frameSmall > p > span:nth-of-type(1) {
     font-size: 1.5rem;
   }
   .mainThr-frameOne .frameOne-frame .frameOne-frameSmall > p > span:nth-of-type(2) {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .mainThr-frameOne .frameOne-frame .frameOne-frameSmall > p:nth-of-type(2) {
     font-size: 0.8rem;
@@ -1731,7 +1709,8 @@ img {
     margin: 0rem 0rem 5rem;
   }
   .mainThr-frameSec .mainThr-frameSec-all .frameSec-Thema > h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
   }
   .mainThr-frameSec .mainThr-frameSec-all .question {
     top: 22%;
@@ -1757,19 +1736,16 @@ img {
     padding-bottom: 5rem;
   }
   .mainFour-all > svg {
-    top: -11rem;
+    top: -12rem;
   }
   .mainFour {
-    padding: 0 3rem;
+    padding: 0 2rem;
   }
   .mainFour .mainFour-comment > p {
+    font-size: 1.4rem;
+  }
+  .mainFour .mainFour-text-midle > p {
     font-size: 1.3rem;
-  }
-  .mainFour .mainFour-text-midle {
-    font-size: 1.2rem;
-  }
-  .mainFour .coating-text > p {
-    font-size: 0.9rem;
   }
   .mainFive-all > svg {
     top: -9rem;
@@ -1780,17 +1756,14 @@ img {
   .mainFive-all .mainFive-thema > p {
     font-size: 1.3rem;
   }
-  .mainFive-all .mainFive-table {
-    padding: 0rem 1rem;
-  }
   .mainFive-all .mainFive-table .table > thead > tr > th {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .mainFive-all .mainFive-table .table > tbody > tr .f-th {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .mainFive-all .mainFive-table .table > tbody > tr > td {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 0 2rem;
   }
   .mainFive-all .mainFive-table .table > tbody > tr > td:nth-of-type(2) {
@@ -1798,11 +1771,11 @@ img {
     padding: 0 2rem;
   }
   .mainFive-all .mainFive-table .table-arrow-all {
-    top: 21%;
-    right: 23%;
+    top: 22%;
+    right: 28%;
   }
   .mainFive-all .mainFive-table .table-arrow-all .table-arrow {
-    margin-bottom: 1.6rem;
+    margin-bottom: 1rem;
     width: 2.5rem;
     font-size: 1rem;
     height: 1.7rem;
@@ -1811,21 +1784,15 @@ img {
     border-width: 1.2rem 0 1.5rem 1.5rem;
     top: -25%;
   }
-  .mainFive-all .mainFive-text-under {
-    padding: 0 1rem;
-  }
-  .mainFive-all .mainFive-frame-all {
-    padding: 2rem 1rem;
-  }
   .mainFive-all .mainFive-frame-all .mF-frame-img {
-    top: -5%;
-    right: -2%;
+    top: -6%;
+    right: 0%;
   }
   .mainFive-all .mainFive-frame-all .mF-frame-contents > p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left {
-    margin: 1.5rem auto 0;
+    width: 50%;
   }
   .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left > p:nth-of-type(1) {
     font-size: 0.7rem;
@@ -1835,6 +1802,19 @@ img {
   }
   .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left .table {
     margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left .table > thead > tr {
+    font-size: 0.8rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left .table > thead > tr > th {
+    font-size: 0.8rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left .table > tbody > tr {
+    font-size: 0.8rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left .table > tbody > tr > th, .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left .table > tbody > tr td {
+    font-size: 0.8rem;
   }
   .mainFive-all .mainFive-frame-all .mF-frame-contents .box-img-right {
     width: 50%;
@@ -1842,6 +1822,9 @@ img {
   .mainFive-all .mainFive-frame-all .mF-frameSec-all {
     margin: 2rem 0;
     padding: 1rem 0;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .frameSec-Square {
+    width: 14%;
   }
   .mainFive-all .mainFive-frame-all .mF-frameSec-all .frameSec-Square > p {
     font-size: 0.5rem;
@@ -1852,27 +1835,39 @@ img {
   .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-left {
     width: 35%;
   }
-  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right {
-    padding: 1rem 3rem;
-  }
   .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-thema {
+    margin-bottom: 1rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-thema > p {
     font-size: 1.3rem;
   }
-  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-textOne {
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-textOne > p {
     font-size: 0.8rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-textSec > p {
+    font-size: 0.8rem;
+  }
+  .mainFive-all .mainFive-text-under > p {
+    font-size: 0.5rem;
+  }
+  .mainFive-all .text-under-list > p {
+    font-size: 0.5rem;
+  }
+  .mainFive-all .text-under-list > p {
+    font-size: 0.5rem;
   }
   .mainSix-frameOne {
-    padding: 2rem 4rem 6rem;
+    padding: 2rem 2rem 6rem;
   }
   .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     margin-top: 0rem;
   }
   .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p > span:nth-of-type(1) {
     font-size: 1.5rem;
   }
   .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p > span:nth-of-type(2) {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p:nth-of-type(2) {
     font-size: 0.8rem;
@@ -1900,7 +1895,7 @@ img {
   }
   .footer .footer-img-cat {
     top: -50%;
-    right: 6%;
+    right: 2%;
   }
   .footer .footer-all .footer-text {
     padding-top: 2rem;
@@ -1927,6 +1922,457 @@ img {
   }
   .footer .footer-all .company-name .company-name-text > p {
     font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header-text {
+    padding-bottom: 2rem;
+  }
+  .header-text .text-main {
+    top: -16%;
+    left: 20%;
+    width: 60%;
+  }
+  .img-all > img:nth-of-type(1) {
+    height: 2rem;
+  }
+  .img-all > span {
+    margin: 0rem 1rem;
+    font-size: 3rem;
+  }
+  .img-all > img:nth-of-type(2) {
+    height: 3rem;
+  }
+  .main-img {
+    top: -25%;
+  }
+  .text-midle > p {
+    font-size: 0.5rem;
+  }
+  .header-text-under .text-kakko .text-inside > h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  .header-text-under .text-kakko .text-inside > h4 {
+    font-size: 0.3rem;
+  }
+  .header-text-under .img-cat1 {
+    width: 20%;
+    left: 95%;
+    top: -1rem;
+  }
+  .main-all {
+    height: 12rem;
+  }
+  .main-all > svg {
+    margin-top: 7%;
+  }
+  .mainOne-contents .mainOne-left > h3 {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+  }
+  .mainOne-contents .mainOne-left .mainOnetext-all .text-square > p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  .mainOne-contents .mainOne-left .mainOnetext-all .text-square > p > sup {
+    font-size: 0.3rem;
+    top: -0.9em;
+  }
+  .mainOne-contents .mainOne-left .mainOnetext-all .kome {
+    font-size: 0.3rem;
+  }
+  .mainOne-contents .mainOne-right > img {
+    width: 90%;
+  }
+  .mainSec-all.bg-kskin {
+    padding: 7rem 2rem 3rem;
+  }
+  .frameOne-contents {
+    display: block;
+  }
+  .frameOne-contents .fOne-contents-left {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+  }
+  .frameOne-contents .fOne-contents-left > h1 {
+    font-size: 1.5rem;
+  }
+  .frameOne-contents .fOne-contents-left > p {
+    font-size: 0.8rem;
+    padding: 1rem 0;
+  }
+  .frameOne-contents .fOne-contents-right {
+    width: 70%;
+  }
+  .fOne-img {
+    width: 18%;
+    top: -4rem;
+  }
+  .frameSec-contents {
+    display: block;
+  }
+  .frameSec-contents .fSec-contents-left {
+    width: 100%;
+  }
+  .frameSec-contents .fSec-contents-left .left-title > h1 {
+    font-size: 3rem;
+  }
+  .frameSec-contents .fSec-contents-left .left-title > h1 > span {
+    font-size: 3rem;
+  }
+  .frameSec-contents .fSec-contents-left .left-title > h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .frameSec-contents .fSec-contents-left .left-title > p {
+    font-size: 0.8rem;
+  }
+  .frameSec-contents .fSec-contents-left .left-text-under {
+    margin: 2rem;
+  }
+  .frameSec-contents .fSec-contents-left .left-text-under > h2 {
+    font-size: 1.3rem;
+  }
+  .frameSec-contents .fSec-contents-right {
+    width: 100%;
+  }
+  .frameSec-contents .fSec-contents-right .text-circle {
+    margin: 1rem auto;
+    /*&:nth-of-type(3) {
+                    line-height: 1rem;
+                    padding: 1.2rem 0;
+                }
+                & > p {
+                    font-size: 2rem;
+                    padding: 3rem 0;                
+                }*/
+  }
+  .frameSec-contents .fSec-contents-right .text-circle:nth-of-type(1) {
+    margin: 1rem auto;
+  }
+  .frameSec-contents .fSec-contents-right .text-circle:nth-of-type(3) {
+    margin: 1rem auto;
+  }
+  .frameSec-contents .fSec-contents-right .text-circle.th > p:nth-of-type(1) {
+    padding: 0;
+    font-size: 0.7rem;
+  }
+  .frameSec-contents .fSec-contents-right .text-circle.th > p:nth-of-type(2) {
+    font-size: 1rem;
+    padding: 0;
+  }
+  .mainSec-frameThr-all .frameThr-contents {
+    display: block;
+  }
+  .mainSec-frameThr-all .frameThr-contents .fThr-contents-left {
+    width: 100%;
+  }
+  .mainSec-frameThr-all .frameThr-contents .fThr-contents-right {
+    width: 100%;
+    /*& > p:nth-of-type(1) {
+                    font-size: 1.2rem;
+                }
+                & > p:nth-of-type(2) {
+                    letter-spacing: 0.1rem;
+                    font-size: 0.8rem;
+                }*/
+  }
+  .mainSec-frameThr-all .frameThr-contents-under h2 {
+    margin: 0rem 3rem 1em;
+    position: relative;
+  }
+  .mainSec-frameThr-all .frameThr-contents-under h2 span {
+    font-size: 0.7rem;
+  }
+  .mainSec-frameThr-under > img {
+    width: 15%;
+    top: -80%;
+  }
+  .mainSec-frameThr-under > img:nth-of-type(2) {
+    width: 25%;
+    top: 1rem;
+    right: -2rem;
+  }
+  .mainSec-frameThr-under .fThr-under-f {
+    margin: 3rem 0;
+  }
+  .mainSec-frameThr-under .fThr-under-f > p {
+    font-size: 0.9rem;
+  }
+  .mainThr-frameOne .frameOne-frame .frameOne-frameSmall > p {
+    font-size: 1.1rem;
+    margin-top: 0rem;
+  }
+  .mainThr-frameOne .frameOne-frame .frameOne-frameSmall > p > span:nth-of-type(1) {
+    font-size: 1.5rem;
+  }
+  .mainThr-frameOne .frameOne-frame .frameOne-frameSmall > p > span:nth-of-type(2) {
+    font-size: 2rem;
+  }
+  .mainThr-frameOne .frameOne-frame .frameOne-frameSmall > p:nth-of-type(2) {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+  .mainThr-frameOne .frameOne-frame .frameOne-frameSmall .img-all {
+    margin: 1rem auto;
+  }
+  .mainThr-frameOne .frameOne-frame .frameOne-frameSmall .img-all > img:nth-of-type(1) {
+    width: 20%;
+    height: 2rem;
+  }
+  .mainThr-frameOne .frameOne-frame .frameOne-frameSmall .img-all > img:nth-of-type(2) {
+    width: 20%;
+    height: 3rem;
+  }
+  .mainThr-frameOne .frameOne-frame .frameOne-frameSmall .img-all > span {
+    font-size: 3rem;
+  }
+  .mainThr-frameSec {
+    background-size: contain;
+  }
+  .mainThr-frameSec .mainThr-frameSec-all .frameSec-Thema {
+    margin: 0rem 0rem 5rem;
+  }
+  .mainThr-frameSec .mainThr-frameSec-all .frameSec-Thema > h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+  }
+  .mainThr-frameSec .mainThr-frameSec-all .question {
+    top: 22%;
+    left: 35%;
+  }
+  .mainThr-frameSec .mainThr-frameSec-all .question > p {
+    font-size: 3rem;
+  }
+  .mainThr-frameSec .mainThr-frameSec-all .question > p:nth-of-type(1) {
+    margin: 0px 5rem 0 0;
+  }
+  .mainThr-frameSec .mainThr-frameSec-all .frame-img {
+    padding-top: 5rem;
+  }
+  .mainThr-frameSec .mainThr-frameSec-all .frameSec-list-all .frameSec-list-left .left-under > p {
+    font-size: 0.7rem;
+  }
+  .mainThr-frameSec .mainThr-frameSec-all .frameSec-list-all .frameSec-list-right .right-under > p {
+    font-size: 0.7rem;
+    width: 62%;
+  }
+  .mainFour-all {
+    padding-bottom: 3rem;
+  }
+  .mainFour-all > svg {
+    top: -12rem;
+  }
+  .mainFour {
+    padding: 0 2rem;
+  }
+  .mainFour .mainFour-comment > p {
+    font-size: 0.7rem;
+  }
+  .mainFour .mainFour-text-midle {
+    margin: 1rem auto;
+  }
+  .mainFour .mainFour-text-midle > p {
+    font-size: 0.5rem;
+  }
+  .mainFour .mF-coating-list-all {
+    width: 90%;
+    margin: 2rem auto 2rem;
+  }
+  .mainFour .coating-text > p {
+    font-size: 0.5rem;
+  }
+  .mainFive-all > svg {
+    top: -5rem;
+  }
+  .mainFive-all .mainFive-thema {
+    background-size: contain;
+  }
+  .mainFive-all .mainFive-thema > p {
+    font-size: 0.8rem;
+    padding: 2.5rem;
+    margin-bottom: 0;
+  }
+  .mainFive-all .mainFive-table {
+    padding: 0;
+  }
+  .mainFive-all .mainFive-table .table > thead > tr > th {
+    font-size: 1rem;
+  }
+  .mainFive-all .mainFive-table .table > tbody > tr .f-th {
+    font-size: 0.5rem;
+  }
+  .mainFive-all .mainFive-table .table > tbody > tr > td {
+    font-size: 0.5rem;
+    padding: 0rem;
+  }
+  .mainFive-all .mainFive-table .table > tbody > tr > td:nth-of-type(2) {
+    font-size: 1rem;
+    padding: 0rem;
+  }
+  .mainFive-all .mainFive-table .table-arrow-all {
+    top: 22%;
+    right: 28%;
+  }
+  .mainFive-all .mainFive-table .table-arrow-all .table-arrow {
+    margin-bottom: 1rem;
+    width: 2.5rem;
+    font-size: 1rem;
+    height: 1.7rem;
+  }
+  .mainFive-all .mainFive-table .table-arrow-all .table-arrow::after {
+    border-width: 1.2rem 0 1.5rem 1.5rem;
+    top: -25%;
+  }
+  .mainFive-all .mainFive-table .mainFive-text-under {
+    padding: 1rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frame-img {
+    top: -1%;
+    right: 6%;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frame-contents > p {
+    font-size: 0.8rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box {
+    display: block;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left {
+    width: 100%;
+    margin: auto;
+    /*.table {
+                            margin-top: 1rem;
+                            margin-bottom: 0;
+                            & > thead > tr {
+                                font-size: 0.8rem;
+                                & > th {
+                                    font-size: 0.8rem;
+                                }
+                            }
+                            & > tbody > tr {
+                                font-size: 0.8rem;
+                                & > th, td {
+                                    font-size: 0.8rem;
+                                }
+                            }
+                        }*/
+  }
+  .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left > p:nth-of-type(1) {
+    font-size: 0.5rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-text-left > p:nth-of-type(2) {
+    font-size: 0.5rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frame-contents .mF-frame-box .box-img-right {
+    width: 100%;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all {
+    margin: 2rem 0;
+    padding: 1rem 0;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .frameSec-Square {
+    width: 25%;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .frameSec-Square > p {
+    font-size: 0.5rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .frameSec-Square > p:nth-of-type(3) {
+    font-size: 1rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec {
+    display: block;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-left {
+    width: 35%;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-thema {
+    margin-bottom: 1rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-thema > p {
+    font-size: 1.3rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-textOne > p {
+    font-size: 0.8rem;
+  }
+  .mainFive-all .mainFive-frame-all .mF-frameSec-all .mF-frameSec .mF-frameSec-right .right-textSec > p {
+    font-size: 0.8rem;
+  }
+  .mainFive-all .mainFive-text-under > p {
+    font-size: 0.5rem;
+  }
+  .mainFive-all .text-under-list > p {
+    font-size: 0.5rem;
+  }
+  .mainFive-all .text-under-list > p {
+    font-size: 0.5rem;
+  }
+  .mainSix-frameOne {
+    padding: 2rem 2rem 6rem;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p {
+    font-size: 1.1rem;
+    margin-top: 0rem;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p > span:nth-of-type(1) {
+    font-size: 1.5rem;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p > span:nth-of-type(2) {
+    font-size: 2rem;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall > p:nth-of-type(2) {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall .img-all {
+    margin: 1rem auto;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall .img-all > img:nth-of-type(1) {
+    width: 20%;
+    height: 2rem;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall .img-all > img:nth-of-type(2) {
+    width: 20%;
+    height: 3rem;
+  }
+  .mainSix-frameOne .frameOne-frame .frameOne-frameSmall .img-all > span {
+    font-size: 3rem;
+  }
+  .footer > svg {
+    top: -42%;
+  }
+  .footer .footer-img-foot {
+    top: -22%;
+  }
+  .footer .footer-img-cat {
+    top: -50%;
+    right: 2%;
+  }
+  .footer .footer-all .footer-text {
+    padding-top: 2rem;
+  }
+  .footer .footer-all .footer-text > h1 {
+    font-size: 1.3rem;
+  }
+  .footer .footer-all .footer-text > h1 > span {
+    font-size: 1.5rem;
+  }
+  .footer .footer-all .footer-text > p {
+    font-size: 0.5rem;
+  }
+  .footer .footer-all .footer-text .text-midle .triangle {
+    border-top: 1.2rem solid transparent;
+    border-left: 1.3rem solid #fff;
+    border-bottom: 1.8rem solid transparent;
+  }
+  .footer .footer-all .footer-text .footer-number {
+    font-size: 3rem;
+  }
+  .footer .footer-all .company-name .company-name-text {
+    padding-left: 15%;
   }
 }
 /*# sourceMappingURL=style.css.map */
