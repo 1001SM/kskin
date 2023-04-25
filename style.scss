@@ -2066,8 +2066,8 @@ img {
             }
         }
         .img-cat1 {
-            width: 20%;
-            left: 95%;
+            width: 18%;
+            left: 93%;
             top: -1rem;
         }
     }
@@ -2109,22 +2109,21 @@ img {
         padding: 7rem 2rem 3rem;
     }
     .frameOne-contents {
-        display: block;
         .fOne-contents-left {
             width: 90%;
             text-align: center;
             margin: auto;
             padding: 0;
             & > h1 {
-                font-size: 1.5rem;
+                font-size: 0.9rem;
             }
             & > p {
-                font-size: 0.8rem;
-                padding: 1rem 0;
+                font-size: 0.1rem;
+                padding: 0;
             }
         }
         .fOne-contents-right {
-            width: 70%;
+            width: 75%;
         }
     }
     .fOne-img {
@@ -2133,21 +2132,25 @@ img {
     }
     //mainSec frameSec
     .frameSec-contents {
-        display: block;
         .fSec-contents-left {
-            width: 100%;
+            width: 50%;
             .left-title {
                 & > h1 {
-                    font-size: 3rem;
+                    font-size: 1.5rem;
                     & > span {
-                        font-size: 3rem;
+                        font-size: 1.5rem;
                     }
                 }
                 & > h3 {
-                    font-size: 1rem;                    text-align: center;
+                    font-size: 0.5rem;                    text-align: center;
                 }
                 & > p {
-                    font-size: 0.8rem;
+                    font-size: 0.3rem;
+                    letter-spacing: 0;
+                }
+                .title-line {
+                    margin: 0.5rem auto;
+                    width: 70%;
                 }
             }
             .left-text-under {
@@ -2158,31 +2161,29 @@ img {
             }
         }
         .fSec-contents-right {
-            width: 100%;
+            width: 50%;
             .text-circle {
-                margin: 1rem auto;
+                width: 4rem;
+                height: 4rem;
                 &:nth-of-type(1) {
-                    margin: 1rem auto;
+                    margin-bottom: 2rem;
                 }
                 &:nth-of-type(3) {
-                    margin: 1rem auto;
-                }
-                /*&:nth-of-type(3) {
-                    line-height: 1rem;
-                    padding: 1.2rem 0;
+                    line-height: normal;
+                    padding: 0;
                 }
                 & > p {
-                    font-size: 2rem;
-                    padding: 3rem 0;                
-                }*/
+                    font-size: 1rem;
+                    padding: 2rem 0;             
+                }
             }
             .text-circle.th {
                 & > p:nth-of-type(1) {
                     padding: 0;
-                    font-size: 0.7rem;                
+                    font-size: 0.1rem;                
                 }
                 & > p:nth-of-type(2) {
-                    font-size: 1rem;
+                    font-size: 0.1rem;
                     padding: 0;                
                 }
             }
