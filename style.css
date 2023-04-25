@@ -2062,28 +2062,34 @@ img {
     font-size: 0.1rem;
     padding: 0;
   }
-  .mainSec-frameThr-all .frameThr-contents {
-    display: block;
-  }
-  .mainSec-frameThr-all .frameThr-contents .fThr-contents-left {
-    width: 100%;
-  }
   .mainSec-frameThr-all .frameThr-contents .fThr-contents-right {
-    width: 100%;
-    /*& > p:nth-of-type(1) {
-                    font-size: 1.2rem;
-                }
-                & > p:nth-of-type(2) {
-                    letter-spacing: 0.1rem;
-                    font-size: 0.8rem;
-                }*/
+    width: 50%;
+  }
+  .mainSec-frameThr-all .frameThr-contents .fThr-contents-right > p:nth-of-type(1) {
+    font-size: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .mainSec-frameThr-all .frameThr-contents .fThr-contents-right > p:nth-of-type(2) {
+    letter-spacing: 0rem;
+    font-size: 0.3rem;
   }
   .mainSec-frameThr-all .frameThr-contents-under h2 {
     margin: 0rem 3rem 1em;
+    height: 3rem;
     position: relative;
   }
+  .mainSec-frameThr-all .frameThr-contents-under h2::before {
+    height: 0.5rem;
+    left: -2.3rem;
+  }
+  .mainSec-frameThr-all .frameThr-contents-under h2::after {
+    height: 0.5rem;
+    right: -2.3rem;
+    border: 1.5rem solid #ebc9b7;
+  }
   .mainSec-frameThr-all .frameThr-contents-under h2 span {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    line-height: 3rem;
   }
   .mainSec-frameThr-under > img {
     width: 15%;

@@ -2194,28 +2194,36 @@ img {
     //mainSec-frameThr
     .mainSec-frameThr-all {
         .frameThr-contents {
-            display: block;
-            .fThr-contents-left {
-                width: 100%;
-            }
             .fThr-contents-right {
-                width: 100%;
-                /*& > p:nth-of-type(1) {
-                    font-size: 1.2rem;
+                width: 50%;
+                & > p:nth-of-type(1) {
+                    font-size: 0.5rem;
+                    margin-bottom: 0.5rem;
                 }
                 & > p:nth-of-type(2) {
-                    letter-spacing: 0.1rem;
-                    font-size: 0.8rem;
-                }*/
+                    letter-spacing: 0rem;
+                    font-size: 0.3rem;
+                }
             }
         }
         .frameThr-contents-under {
             h2 {
-                margin: 0rem 3rem 1em;               
+                margin: 0rem 3rem 1em; 
+                height: 3rem;              
                 position: relative;
+                &::before {
+                    height: 0.5rem;
+                    left: -2.3rem;
+                }
+                &::after {
+                    height: 0.5rem;
+                    right: -2.3rem;
+                    border: 1.5rem solid #ebc9b7;
+                }
             }
             h2 span {
-                font-size: 0.7rem;
+                font-size: 0.9rem;
+                line-height: 3rem;
             }
         }    
     }
