@@ -2058,10 +2058,10 @@ img {
             .text-inside {
                 & > h3 {
                     margin-bottom: 0.5rem;
-                    font-size: 1rem;
+                    font-size: 0.5rem;
                 }
                 & > h4 {
-                    font-size: 0.3rem;
+                    font-size: 0.5rem;
                 }
             }
         }
@@ -2072,7 +2072,7 @@ img {
         }
     }
     .main-all {
-        height: 12rem;
+        height: 11rem;
         & > svg {
             margin-top: 7%;
         }
@@ -2106,24 +2106,25 @@ img {
         }
     }
     .mainSec-all.bg-kskin {
-        padding: 7rem 2rem 3rem;
+        padding: 7rem 2rem 1rem;
     }
     .frameOne-contents {
+        padding: 0.5rem;
         .fOne-contents-left {
             width: 90%;
             text-align: center;
             margin: auto;
-            padding: 0;
+            padding: 0 0.5rem 0 0;
             & > h1 {
-                font-size: 0.9rem;
+                font-size: 0.7rem;
             }
             & > p {
-                font-size: 0.1rem;
+                font-size: 0.25rem;
                 padding: 0;
             }
         }
         .fOne-contents-right {
-            width: 75%;
+            width: 80%;
         }
     }
     .fOne-img {
@@ -2154,36 +2155,36 @@ img {
                 }
             }
             .left-text-under {
-                margin: 2rem;
+                margin: 1rem;
                 & > h2 {
-                    font-size: 1.3rem;                
+                    font-size: 0.5rem;                
                 }
             }
         }
         .fSec-contents-right {
             width: 50%;
             .text-circle {
-                width: 4rem;
-                height: 4rem;
+                width: 3rem;
+                height: 3rem;
                 &:nth-of-type(1) {
-                    margin-bottom: 2rem;
+                    margin-bottom: 1rem;
                 }
                 &:nth-of-type(3) {
                     line-height: normal;
                     padding: 0;
                 }
                 & > p {
-                    font-size: 1rem;
-                    padding: 2rem 0;             
+                    font-size: 0.7rem;
+                    padding: 1.3rem 0;             
                 }
             }
             .text-circle.th {
                 & > p:nth-of-type(1) {
                     padding: 0;
-                    font-size: 0.1rem;                
+                    font-size: 0.3rem;                
                 }
                 & > p:nth-of-type(2) {
-                    font-size: 0.1rem;
+                    font-size: 0.5rem;
                     padding: 0;                
                 }
             }
@@ -2206,7 +2207,7 @@ img {
                 }
             }
         }
-        .frameThr-contents-under {
+        .frameThr-contents-under { //修正必要
             h2 {
                 margin: 0rem 3rem 1em; 
                 height: 3rem;              
@@ -2214,15 +2215,16 @@ img {
                 &::before {
                     height: 0.5rem;
                     left: -2.3rem;
+                    border: 1.5rem solid #ebc9b7;
                 }
                 &::after {
                     height: 0.5rem;
-                    right: -2.3rem;
+                    right: -2.5rem;
                     border: 1.5rem solid #ebc9b7;
                 }
             }
             h2 span {
-                font-size: 0.9rem;
+                font-size: 0.6rem;
                 line-height: 3rem;
             }
         }    
@@ -2231,6 +2233,7 @@ img {
         & > img {
             width: 15%;
             top: -80%;
+            right: 10%;
             &:nth-of-type(2) {
                 width: 25%;
                 top: 1rem;
@@ -2238,9 +2241,9 @@ img {
             }
         }
         .fThr-under-f {
-            margin: 3rem 0;
+            margin: 2rem 0;
             & > p {
-                font-size: 0.9rem;            
+                font-size: 0.7rem;            
             }
         }
     }
@@ -2249,31 +2252,31 @@ img {
         .frameOne-frame {
             .frameOne-frameSmall {
                 & > p {
-                    font-size: 1.1rem;
+                    font-size: 0.5rem;
                     margin-top: 0rem;
                     & > span:nth-of-type(1) {
-                        font-size: 1.5rem;
+                        font-size: 0.7rem;
                     }
                     & > span:nth-of-type(2) {
-                        font-size: 2rem;
+                        font-size: 1rem;
                     }
                 }
                 & > p:nth-of-type(2) {
-                    font-size: 0.8rem;
-                    margin-top: 1rem;
+                    font-size: 0.5rem;
+                    margin-top: 0.5rem;
                 }
                 .img-all {
-                    margin: 1rem auto;
+                    margin: 0.5rem auto;
                     & > img:nth-of-type(1) {
                         width: 20%;
-                        height: 2rem;
+                        height: 1.5rem;
                     }
                     & > img:nth-of-type(2) {
                         width: 20%;
-                        height: 3rem;
+                        height: 2rem;
                     }
                     & > span {
-                        font-size: 3rem;
+                        font-size: 2rem;
                     }
                 }
             }
@@ -2284,20 +2287,21 @@ img {
     .mainThr-frameSec {
         background-size: contain;
         .mainThr-frameSec-all {
+            padding: 2rem 2rem 5rem;
             .frameSec-Thema {
-                margin: 0rem 0rem 5rem;
+                margin: 0rem;
                 & > h1 {
-                    font-size: 2.5rem;
+                    font-size: 1rem;
                     letter-spacing: 0.5rem;
                 }
             }
             .question {
-                top: 22%;
+                top: 12%;
                 left: 35%;
                 & > p {
-                    font-size: 3rem;
+                    font-size: 2rem;
                     &:nth-of-type(1) {
-                        margin: 0px 5rem 0 0;
+                        margin: 0px 11rem 0 0;
                     }
                 }
             }
@@ -2307,16 +2311,22 @@ img {
             .frameSec-list-all {
                 .frameSec-list-left {
                     .left-under {
+                        .left-underbar {
+                            height: 0.5rem;
+                        }
                         & > p {
-                            font-size: 0.7rem;
+                            font-size: 0.3rem;
                         }
                         
                     }
                 }
                 .frameSec-list-right {
                     .right-under {
+                        .right-underbar {
+                            height: 0.5rem;
+                        }
                         & > p {
-                            font-size: 0.7rem;
+                            font-size: 0.3rem;
                             width: 62%;
                         }
                     }
@@ -2327,7 +2337,7 @@ img {
     .mainFour-all {
         padding-bottom: 3rem;
         & > svg {
-            top: -12rem;
+            top: -6.5rem;
         }
     }
     .mainFour {
@@ -2339,17 +2349,18 @@ img {
         }
         .mainFour-text-midle {
             margin: 1rem auto;
+            padding: 0 0.5rem;
             & > p {
                 font-size: 0.5rem;
             }
         }
         .mF-coating-list-all {
             width: 90%;
-            margin: 2rem auto 2rem;
+            margin: 1rem auto;
         }
         .coating-text {
             & > p {
-                font-size: 0.5rem;
+                font-size: 0.25rem;
             }
         }
     }
@@ -2361,26 +2372,25 @@ img {
         .mainFive-thema {
             background-size: contain;
             & > p {
-                font-size: 0.8rem;
-                padding: 2.5rem;
+                font-size: 0.6rem;
+                padding: 2rem;
                 margin-bottom: 0;
             }
         }
         .mainFive-table {
-            padding: 0;
             .table {
                 & > thead > tr > th {
-                    font-size: 1rem;
+                    font-size: 0.5rem;
                 }
                 & > tbody > tr {
                     .f-th {
-                        font-size: 0.5rem;
+                        font-size: 0.3rem;
                     }
                     & > td {
-                        font-size: 0.5rem;
+                        font-size: 0.7rem;
                         padding: 0rem;
                         &:nth-of-type(2) {
-                            font-size: 1rem;
+                            font-size: 0.9rem;
                             padding: 0rem;
                         }
                     }
@@ -2410,39 +2420,35 @@ img {
                 right: 6%;
             }
             .mF-frame-contents {
+                padding: 1rem 1rem 0;
                 & > p {
-                    font-size: 0.8rem; //要相談
+                    font-size: 0.5rem;
                 }
                 .mF-frame-box {
-                    display: block;
                     .box-text-left {
-                        width: 100%;
                         margin: auto;
                         & > p:nth-of-type(1){
-                            font-size: 0.5rem;
+                            font-size: 0.3rem;
                         }
                         & > p:nth-of-type(2){
-                            font-size: 0.5rem;
+                            font-size: 0.3rem;
                         }
-                        /*.table {
+                        .table {
                             margin-top: 1rem;
                             margin-bottom: 0;
                             & > thead > tr {
-                                font-size: 0.8rem;
+                                font-size: 0.5rem;
                                 & > th {
-                                    font-size: 0.8rem;
+                                    font-size: 0.5rem;
                                 }
                             }
                             & > tbody > tr {
-                                font-size: 0.8rem;
+                                font-size: 0.5rem;
                                 & > th, td {
-                                    font-size: 0.8rem;
+                                    font-size: 0.5rem;
                                 }
                             }
-                        }*/
-                    }
-                    .box-img-right {
-                        width: 100%;
+                        }
                     }
                 }
             }
@@ -2450,34 +2456,38 @@ img {
                 margin: 2rem 0;
                 padding: 1rem 0;
                 .frameSec-Square {
-                    width: 25%;
+                    width: 17%;
+                    z-index: 1000;
+                    padding: 0.3rem;
                     & > p {
-                        font-size: 0.5rem;
+                        font-size: 0.3rem;
                         &:nth-of-type(3) {
-                            font-size: 1rem;
+                            font-size: 0.6rem;
                         }
                     }
                 }
                 .mF-frameSec {
-                    display: block;
                     .mF-frameSec-left {
-                        width: 35%;
+                        width: 45%;
+                        & > img {
+                            width: 70%;
+                        }
                     }
                     .mF-frameSec-right {
                         .right-thema {
-                            margin-bottom: 1rem;
+                            margin-bottom: 0.5rem;
                             & > p {
-                                font-size: 1.3rem;
+                                font-size: 0.5rem;
                             }
                         }
                         .right-textOne {
                             & > p {
-                                font-size: 0.8rem;
+                                font-size: 0.3rem;
                             }
                         }
                         .right-textSec {
                             & > p {
-                                font-size: 0.8rem;
+                                font-size: 0.3rem;
                             }
                         }
                     }
@@ -2502,35 +2512,35 @@ img {
     }  
     //mainSix
     .mainSix-frameOne {
-        padding: 2rem 2rem 6rem;
+        padding: 2rem 2rem 4rem;
         .frameOne-frame {
             .frameOne-frameSmall {
                 & > p {
-                    font-size: 1.1rem;
+                    font-size: 0.5rem;
                     margin-top: 0rem;
                     & > span:nth-of-type(1) {
-                        font-size: 1.5rem;
+                        font-size: 0.7rem;
                     }
                     & > span:nth-of-type(2) {
-                        font-size: 2rem;
+                        font-size: 1rem;
                     }
                 }
                 & > p:nth-of-type(2) {
-                    font-size: 0.8rem;
-                    margin-top: 1rem;
+                    font-size: 0.5rem;
+                    margin-top: 0.5rem;
                 }
                 .img-all {
-                    margin: 1rem auto;
+                    margin: 0.5rem auto;
                     & > img:nth-of-type(1) {
                         width: 20%;
-                        height: 2rem;
+                        height: 1.5rem;
                     }
                     & > img:nth-of-type(2) {
                         width: 20%;
-                        height: 3rem;
+                        height: 2rem;
                     }
                     & > span {
-                        font-size: 3rem;
+                        font-size: 2rem;
                     }
                 }
             }
@@ -2539,36 +2549,41 @@ img {
     //footer
     .footer {
         & > svg {
-            top: -42%;
+            top: -25%;
         }
         .footer-img-foot {
-            top: -22%;
+            top: -13%;
         }
         .footer-img-cat{
-            top: -50%;
-            right: 2%;
+            top: -33%;
+            right: 5%;
         }
         .footer-all {
             .footer-text {
                 padding-top: 2rem;
                 & > h1 {
-                    font-size: 1.3rem;
+                    font-size: 1.2rem;
                     & > span {
-                        font-size: 1.5rem;
+                        font-size: 1.2rem;
                     }
                 }
                 & > p {
                     font-size: 0.5rem;
                 }
                 .text-midle {
+                    & > p {
+                        & > span {
+                            font-size: 0.25rem;
+                        }
+                    }
                     .triangle{
-                        border-top: 1.2rem solid transparent;
-                        border-left: 1.3rem solid #fff;
-                        border-bottom: 1.8rem solid transparent;
+                        border-left: 0.8rem solid #fff;
+                        border-bottom: 0.75rem solid transparent;
+                        border-top: 1rem solid transparent;
                       }
                 }
                 .footer-number {
-                    font-size: 3rem;
+                    font-size: 2.5rem;
                 }
             }
             .company-name {
